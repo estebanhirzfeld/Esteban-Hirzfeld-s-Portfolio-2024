@@ -1,62 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
-.switch-button {
-  background: rgba(255, 255, 255, 0.56);
-  border-radius: 30px;
-  overflow: hidden;
-  width: 240px;
-  text-align: center;
-  font-size: 18px;
-  letter-spacing: 1px;
-  color: #7c64b0;
-  position: relative;
-  padding-right: 120px;
-  position: relative; }
-  .switch-button:before {
-    content: "Work";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    width: 120px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 2;
-    pointer-events: none; }
-  .switch-button-checkbox {
-    cursor: pointer;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    z-index: 2; }
-    .switch-button-checkbox:checked + .switch-button-label:before {
-      transform: translateX(120px);
-      transition: transform 300ms linear; }
-    .switch-button-checkbox + .switch-button-label {
-      position: relative;
-      padding: 15px 0;
-      display: block;
-      user-select: none;
-      pointer-events: none; }
-      .switch-button-checkbox + .switch-button-label:before {
-        content: "";
-        background: #e7e7e7;
-        height: 100%;
-        width: 100%;
-        position: absolute;
-        left: 0;
-        top: 0;
-        border-radius: 30px;
-        transform: translateX(0);
-        transition: transform 300ms; }
-      .switch-button-checkbox + .switch-button-label .switch-button-label-span {
-        position: relative; }
-
 /* Fonts ////////////////////// */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 /* /////////////////////////////// */
 * {
   margin: 0px;
@@ -168,3 +111,67 @@ p {
   box-shadow: 2px -5px 20px 0px #0b325e;
   background-color: white;
   height: 50px; }
+
+.desktopNavbar {
+  display: none; }
+
+.switch-button {
+  background: rgba(255, 255, 255, 0.56);
+  border-radius: 30px;
+  overflow: hidden;
+  width: 240px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #7c64b0;
+  position: relative;
+  padding-right: 120px;
+  position: relative; }
+  .switch-button:before {
+    content: "Work";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    pointer-events: none; }
+  .switch-button-checkbox {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 2; }
+    .switch-button-checkbox:checked + .switch-button-label:before {
+      transform: translateX(120px);
+      transition: transform 300ms linear; }
+    .switch-button-checkbox + .switch-button-label {
+      position: relative;
+      padding: 15px 0;
+      display: block;
+      user-select: none;
+      pointer-events: none; }
+      .switch-button-checkbox + .switch-button-label:before {
+        content: "";
+        background: #e7e7e7;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        border-radius: 30px;
+        transform: translateX(0);
+        transition: transform 300ms; }
+      .switch-button-checkbox + .switch-button-label .switch-button-label-span {
+        position: relative; }
+
+@media (min-width: 320px) and (max-width: 1024px) {
+  .desktopNavbar {
+    display: none; } }
