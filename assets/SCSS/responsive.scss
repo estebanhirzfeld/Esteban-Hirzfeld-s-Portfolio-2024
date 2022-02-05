@@ -1,5 +1,14 @@
-@media (min-width: 320px) and (max-width: 1024px) {
-    .desktopNavbar {
+@media (min-width: 0px) and (max-width: 768px) {
+    .desktopNavbar__item{
         display: none;
     }
+    .desktopNavbar__item--mobile{
+        display: block;
+    }
+}
+
+@media (min-width: 768px){
+.desktopNavbar__item--mobile{
+    display:none;
+}
 }
