@@ -49,8 +49,8 @@ function openedNav() {
 
 function closedNav() {
     $('.closedNav').append(
-        `<div data-aos="fade-up" class="container-fluid navBar__controller pt-2">
-                <div class="row pb-2">
+        `<div data-aos="fade-up" class="container-fluid navBar__controller py-3">
+                <div class="row">
                     <div class="col-8 col-md-8 col-lg-8 d-flex justify-content-start align-items-center">
                         <button><span>Esteban Hirzfeld</i></span></button>
                     </div>

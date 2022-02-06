@@ -176,7 +176,10 @@ p {
   .desktopNavbar__item {
     display: none; }
   .desktopNavbar__item--mobile {
-    display: block; } }
+    display: block; }
+  .customCarrousel {
+    border-radius: 20px;
+    width: 95%; } }
 
 @media (min-width: 768px) {
   .desktopNavbar__item--mobile {
