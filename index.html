@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    
+
     <nav class="desktopNavbar container-fluid d-md-flex justify-content-center">
         <div class="row no-gutters list-style-none align-items-center">
             <li class="col text-center cursor--pointer home__button desktopNavbar__item">Home</li>
@@ -26,11 +26,11 @@
             <li class="col text-center cursor--pointer contactMe__button desktopNavbar__item">Contacto</li>
         </div>
     </nav>
-    
+
     <nav id="home" class="openedNav"></nav>
     <nav class="closedNav"></nav>
 
-    <div class="container">
+    <div class="container header__container">
         <div class="row d-flex justify-content-center align-items-center">
             <div data-aos="fade-right" class="col-12 col-md-6 col-lg-6"><img class="col-12 col-md-12 col-lg-12"
                     src="assets/img/Esteban Hirzfeld Portfolio Image.png" alt=""></div>
@@ -40,7 +40,7 @@
                 <p class="lead"">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptatum iste, incidunt
                     quisquam mollitia nam.</p>
 
-                <button class="btn btn-danger my-3 contactMe__button"><span>Contact Me </span></button>
+                <button class=" btn btn-danger my-3 contactMe__button"><span>Contact Me </span></button>
             </div>
         </div>
     </div>
@@ -50,7 +50,8 @@
             <h2>Acerca de Mi</h2>
             <p class="lead">Introducción</p>
 
-            <div data-aos="zoom-in" class="col-10 col-md-6 col-lg-4"><img class="w-100 rounded-circle my-5" src="assets/img/1.png" alt="">
+            <div data-aos="zoom-in" class="col-10 col-md-6 col-lg-4"><img class="w-100 rounded-circle my-5"
+                    src="assets/img/1.png" alt="">
             </div>
             <p class="my-5 lead">Desarrollador Freelance proactivo, en
                 constante crecimiento y aprendizaje,
@@ -82,334 +83,341 @@
             <h2 class=" text-center">Skills</h2>
             <p class="mb-5 lead text-center">Mi Nivel Técnico</p>
 
-            <div id="accordion">
-                <div data-aos="flip-up" class="card">
-                    <div class="card-header" id="headingOne">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
-                                aria-expanded="true" aria-controls="collapseOne">
-                                Frontend Developer
-                            </button>
-                        </h5>
-                    </div>
-
-                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                        <div class="card-body lead">
-                            <p>
-                                <ion-icon name="logo-html5"></ion-icon>HTML
-                            </p>
-                            <p> - <ion-icon name="logo-buffer"></ion-icon>Bootstrap</p>
-                            <p>
-                                <ion-icon name="logo-css3"></ion-icon>CSS
-                            </p>
-                            <p> - <ion-icon name="logo-sass"></ion-icon>
-                                </ion-icon>Sass</p>
-                            <p>
-                                <ion-icon name="logo-javascript"></ion-icon>
-                                </ion-icon>Javascript
-                            </p>
-                            <p> - <ion-icon name="logo-react"></ion-icon>React Js</p>
-                            <p> - <ion-icon name="logo-vue"></ion-icon>Vue Js</p>
+            <div class="accordion" id="accordionFrontend">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed fw-bolder" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Front-End Developer
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionFrontend">
+                        <div class="accordion-body p-0">
+                                <table class="table table-striped demo">
+                                    <tbody>
+                                    <tr>
+                                        <td><i class="fab fa-html5"></i>&nbsp;  HTML</td>
+                                    </tr>
+                                    <tr>
+                                        <td> - <i class="fab fa-bootstrap"></i>&nbsp;Bootstrap</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fab fa-css3-alt"></i>&nbsp; CSS</td>
+                                    </tr>
+                                    <tr>
+                                        <td> - <i class="fab fa-sass"></i>&nbsp;Sass</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fab fa-js"></i>&nbsp; Javascript</td>
+                                    </tr>
+                                    <tr>
+                                        <td> - <i class="fab fa-react"></i>&nbsp;React Js<br></td>
+                                    </tr>
+                                    <tr>
+                                        <td> - <i class="fab fa-vuejs"></i>&nbsp;Vue Js</td>
+                                    </tr>
+                                    <tbody>
+                                </table>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div data-aos="flip-up" id="accordion">
-                    <div class="card mt-3">
-                        <div class="card-header" id="headingTwo">
-                            <h5 class="mb-0">
-                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo"
-                                    aria-expanded="true" aria-controls="collapseOne">
-                                    Designer
-                                </button>
-                            </h5>
-                        </div>
-
-                        <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo"
-                            data-parent="#accordion">
-                            <div class="card-body lead">
-                                <p><svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img"
-                                        viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                                        <title></title>
-                                        <path
-                                            d="M9.85 8.42c-.37-.15-.77-.21-1.18-.2-.26 0-.49 0-.68.01-.2-.01-.34 0-.41.01v3.36c.14.01.27.02.39.02h.53c.39 0 .78-.06 1.15-.18.32-.09.6-.28.82-.53.21-.25.31-.59.31-1.03.01-.31-.07-.62-.23-.89-.17-.26-.41-.46-.7-.57zM19.75.3H4.25C1.9.3 0 2.2 0 4.55v14.899c0 2.35 1.9 4.25 4.25 4.25h15.5c2.35 0 4.25-1.9 4.25-4.25V4.55C24 2.2 22.1.3 19.75.3zm-7.391 11.65c-.399.56-.959.98-1.609 1.22-.68.25-1.43.34-2.25.34-.24 0-.4 0-.5-.01s-.24-.01-.43-.01v3.209c.01.07-.04.131-.11.141H5.52c-.08 0-.12-.041-.12-.131V6.42c0-.07.03-.11.1-.11.17 0 .33 0 .56-.01.24-.01.49-.01.76-.02s.56-.01.87-.02c.31-.01.61-.01.91-.01.82 0 1.5.1 2.06.31.5.17.96.45 1.34.82.32.32.57.71.73 1.14.149.42.229.85.229 1.3.001.86-.199 1.57-.6 2.13zm7.091 3.89c-.28.4-.671.709-1.12.891-.49.209-1.09.318-1.811.318-.459 0-.91-.039-1.359-.129-.35-.061-.7-.17-1.02-.32-.07-.039-.121-.109-.111-.189v-1.74c0-.029.011-.07.041-.09.029-.02.06-.01.09.01.39.23.8.391 1.24.49.379.1.779.15 1.18.15.38 0 .65-.051.83-.141.16-.07.27-.24.27-.42 0-.141-.08-.27-.24-.4-.16-.129-.489-.279-.979-.471-.51-.18-.979-.42-1.42-.719-.31-.221-.569-.51-.761-.85-.159-.32-.239-.67-.229-1.021 0-.43.12-.84.341-1.21.25-.4.619-.72 1.049-.92.469-.239 1.059-.349 1.769-.349.41 0 .83.03 1.24.09.3.04.59.12.86.23.039.01.08.05.1.09.01.04.02.08.02.12v1.63c0 .04-.02.08-.05.1-.09.02-.14.02-.18 0-.3-.16-.62-.27-.96-.34-.37-.08-.74-.13-1.12-.13-.2-.01-.41.02-.601.07-.129.03-.24.1-.31.2-.05.08-.08.18-.08.27s.04.18.101.26c.09.11.209.2.34.27.229.12.47.23.709.33.541.18 1.061.43 1.541.73.33.209.6.49.789.83.16.318.24.67.23 1.029.011.471-.129.94-.389 1.331z">
-                                        </path>
-                                    </svg> Photoshop</p>
-                                <p><svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img"
-                                        viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                                        <title></title>
-                                        <path
-                                            d="M18.835.3H5.165A5.165 5.165 0 0 0 0 5.465v13.07A5.165 5.165 0 0 0 5.165 23.7h13.67A5.165 5.165 0 0 0 24 18.535V5.465A5.165 5.165 0 0 0 18.835.3zm-6.106 16.491h-2.287c-.16 0-.274-.006-.338-.113-.215-.419-.43-.835-.644-1.248a45.137 45.137 0 0 0-.684-1.264 66.961 66.961 0 0 1-.717-1.305h-.016a52.7 52.7 0 0 1-.668 1.288c-.23.429-.459.856-.684 1.28A54.85 54.85 0 0 1 6 16.693c-.044.097-.119.107-.227.107H3.568c-.043 0-.067.017-.072-.026a.166.166 0 0 1 .024-.113l3.107-5.105L3.6 6.438c-.033-.043-.038-.078-.016-.107a.115.115 0 0 1 .097-.04h2.27a.36.36 0 0 1 .145.024.292.292 0 0 1 .096.089c.193.43.408.859.644 1.288.236.429.475.853.716 1.272.241.419.464.843.668 1.272h.016c.213-.44.43-.869.652-1.288.222-.419.447-.84.676-1.264.231-.425.453-.847.668-1.264a.246.246 0 0 1 .064-.106.239.239 0 0 1 .129-.024h2.109a.093.093 0 0 1 .112.067.093.093 0 0 1-.031.094l.001.004-2.995 4.943 3.204 5.249c.021.037.026.08.016.121-.01.036-.047.012-.112.023zm7.681-.42a8.02 8.02 0 0 1-1.626.483 8.63 8.63 0 0 1-1.547.145 5.006 5.006 0 0 1-2.149-.45 3.421 3.421 0 0 1-1.506-1.361 4.348 4.348 0 0 1-.548-2.278 4.202 4.202 0 0 1 .548-2.109 4.018 4.018 0 0 1 1.595-1.545 5.139 5.139 0 0 1 2.737-.572c.086.005.188.013.306.024V5.536c0-.075.032-.113.097-.113h2.028a.086.086 0 0 1 .097.073.096.096 0 0 1 0 .024v9.517c0 .183.008.381.024.596.016.214.03.407.04.579a.163.163 0 0 1-.096.159zm-2.457-5.812c.09.009.179.025.266.048v4.395a1.634 1.634 0 0 1-.354.064 4.965 4.965 0 0 1-.419.016 2.656 2.656 0 0 1-.83-.129 1.714 1.714 0 0 1-.676-.402 1.973 1.973 0 0 1-.451-.708 2.83 2.83 0 0 1-.169-1.031 2.217 2.217 0 0 1 .33-1.272c.213-.316.504-.571.845-.741.35-.173.736-.262 1.127-.258.111.002.221.007.331.018z">
-                                        </path>
-                                    </svg> Adobe XD</p>
-                                <p><svg stroke="currentColor" fill="currentColor" stroke-width="0"
-                                        viewBox="0 0 1024 1024" height="1em" width="1em"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M912 302.3L784 376V224c0-35.3-28.7-64-64-64H128c-35.3 0-64 28.7-64 64v576c0 35.3 28.7 64 64 64h592c35.3 0 64-28.7 64-64V648l128 73.7c21.3 12.3 48-3.1 48-27.6V330c0-24.6-26.7-40-48-27.7zM328 352c0 4.4-3.6 8-8 8H208c-4.4 0-8-3.6-8-8v-48c0-4.4 3.6-8 8-8h112c4.4 0 8 3.6 8 8v48zm560 273l-104-59.8V458.9L888 399v226z">
-                                        </path>
-                                    </svg> Sony Vegas</p>
-                            </div>
+            <div class="accordion" id="accordionDesigner">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed fw-bolder" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Designer
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionDesigner">
+                        <div class="accordion-body p-0">
+                                <table class="table table-striped demo">
+                                    <tbody>
+                                    <tr>
+                                        <td><svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img"
+                                            viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                            <title></title>
+                                            <path
+                                                d="M9.85 8.42c-.37-.15-.77-.21-1.18-.2-.26 0-.49 0-.68.01-.2-.01-.34 0-.41.01v3.36c.14.01.27.02.39.02h.53c.39 0 .78-.06 1.15-.18.32-.09.6-.28.82-.53.21-.25.31-.59.31-1.03.01-.31-.07-.62-.23-.89-.17-.26-.41-.46-.7-.57zM19.75.3H4.25C1.9.3 0 2.2 0 4.55v14.899c0 2.35 1.9 4.25 4.25 4.25h15.5c2.35 0 4.25-1.9 4.25-4.25V4.55C24 2.2 22.1.3 19.75.3zm-7.391 11.65c-.399.56-.959.98-1.609 1.22-.68.25-1.43.34-2.25.34-.24 0-.4 0-.5-.01s-.24-.01-.43-.01v3.209c.01.07-.04.131-.11.141H5.52c-.08 0-.12-.041-.12-.131V6.42c0-.07.03-.11.1-.11.17 0 .33 0 .56-.01.24-.01.49-.01.76-.02s.56-.01.87-.02c.31-.01.61-.01.91-.01.82 0 1.5.1 2.06.31.5.17.96.45 1.34.82.32.32.57.71.73 1.14.149.42.229.85.229 1.3.001.86-.199 1.57-.6 2.13zm7.091 3.89c-.28.4-.671.709-1.12.891-.49.209-1.09.318-1.811.318-.459 0-.91-.039-1.359-.129-.35-.061-.7-.17-1.02-.32-.07-.039-.121-.109-.111-.189v-1.74c0-.029.011-.07.041-.09.029-.02.06-.01.09.01.39.23.8.391 1.24.49.379.1.779.15 1.18.15.38 0 .65-.051.83-.141.16-.07.27-.24.27-.42 0-.141-.08-.27-.24-.4-.16-.129-.489-.279-.979-.471-.51-.18-.979-.42-1.42-.719-.31-.221-.569-.51-.761-.85-.159-.32-.239-.67-.229-1.021 0-.43.12-.84.341-1.21.25-.4.619-.72 1.049-.92.469-.239 1.059-.349 1.769-.349.41 0 .83.03 1.24.09.3.04.59.12.86.23.039.01.08.05.1.09.01.04.02.08.02.12v1.63c0 .04-.02.08-.05.1-.09.02-.14.02-.18 0-.3-.16-.62-.27-.96-.34-.37-.08-.74-.13-1.12-.13-.2-.01-.41.02-.601.07-.129.03-.24.1-.31.2-.05.08-.08.18-.08.27s.04.18.101.26c.09.11.209.2.34.27.229.12.47.23.709.33.541.18 1.061.43 1.541.73.33.209.6.49.789.83.16.318.24.67.23 1.029.011.471-.129.94-.389 1.331z">
+                                            </path>
+                                        </svg>&nbsp; Photoshop</td>
+                                    </tr>
+                                    <tr>
+                                        <td><svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img"
+                                            viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                            <title></title>
+                                            <path
+                                                d="M18.835.3H5.165A5.165 5.165 0 0 0 0 5.465v13.07A5.165 5.165 0 0 0 5.165 23.7h13.67A5.165 5.165 0 0 0 24 18.535V5.465A5.165 5.165 0 0 0 18.835.3zm-6.106 16.491h-2.287c-.16 0-.274-.006-.338-.113-.215-.419-.43-.835-.644-1.248a45.137 45.137 0 0 0-.684-1.264 66.961 66.961 0 0 1-.717-1.305h-.016a52.7 52.7 0 0 1-.668 1.288c-.23.429-.459.856-.684 1.28A54.85 54.85 0 0 1 6 16.693c-.044.097-.119.107-.227.107H3.568c-.043 0-.067.017-.072-.026a.166.166 0 0 1 .024-.113l3.107-5.105L3.6 6.438c-.033-.043-.038-.078-.016-.107a.115.115 0 0 1 .097-.04h2.27a.36.36 0 0 1 .145.024.292.292 0 0 1 .096.089c.193.43.408.859.644 1.288.236.429.475.853.716 1.272.241.419.464.843.668 1.272h.016c.213-.44.43-.869.652-1.288.222-.419.447-.84.676-1.264.231-.425.453-.847.668-1.264a.246.246 0 0 1 .064-.106.239.239 0 0 1 .129-.024h2.109a.093.093 0 0 1 .112.067.093.093 0 0 1-.031.094l.001.004-2.995 4.943 3.204 5.249c.021.037.026.08.016.121-.01.036-.047.012-.112.023zm7.681-.42a8.02 8.02 0 0 1-1.626.483 8.63 8.63 0 0 1-1.547.145 5.006 5.006 0 0 1-2.149-.45 3.421 3.421 0 0 1-1.506-1.361 4.348 4.348 0 0 1-.548-2.278 4.202 4.202 0 0 1 .548-2.109 4.018 4.018 0 0 1 1.595-1.545 5.139 5.139 0 0 1 2.737-.572c.086.005.188.013.306.024V5.536c0-.075.032-.113.097-.113h2.028a.086.086 0 0 1 .097.073.096.096 0 0 1 0 .024v9.517c0 .183.008.381.024.596.016.214.03.407.04.579a.163.163 0 0 1-.096.159zm-2.457-5.812c.09.009.179.025.266.048v4.395a1.634 1.634 0 0 1-.354.064 4.965 4.965 0 0 1-.419.016 2.656 2.656 0 0 1-.83-.129 1.714 1.714 0 0 1-.676-.402 1.973 1.973 0 0 1-.451-.708 2.83 2.83 0 0 1-.169-1.031 2.217 2.217 0 0 1 .33-1.272c.213-.316.504-.571.845-.741.35-.173.736-.262 1.127-.258.111.002.221.007.331.018z">
+                                            </path>
+                                        </svg>&nbsp; Adobe XD</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fas fa-video"></i>&nbsp; Sony Vegas 17</td>
+                                    </tr>
+                                    <tbody>
+                                </table>
                         </div>
                     </div>
+                </div>
+            </div>
 
-                    <div id="accordion">
-                        <div class="card mt-3">
-                            <div class="card-header" id="headingTwo">
-                                <h5 class="mb-0 text-secondary">Tecnologias en las que me sigo perfeccionando</h5>
-                            </div>
-                            <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo"
-                                data-parent="#accordion">
-                                <div class="card-body lead">
-                                    <p><svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img"
+            <div class="accordion" id="accordionOther">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed text-secondary fw-bolder" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Tecnologias en las que me sigo perfeccionando
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionOther">
+                        <div class="accordion-body p-0">
+                                <table class="table table-striped demo">
+                                    <tbody>
+                                    <tr>
+                                        <td><svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img"
                                             viewBox="0 0 24 24" height="1em" width="1em"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <title></title>
                                             <path
                                                 d="M12 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0zM9.426 7.12a5.55 5.55 0 011.985.38v1.181a4.5 4.5 0 00-2.25-.566 3.439 3.439 0 00-2.625 1.087 4.099 4.099 0 00-1.012 2.906 3.9 3.9 0 00.945 2.754 3.217 3.217 0 002.482 1.023 4.657 4.657 0 002.464-.634l-.004 1.08a5.543 5.543 0 01-2.625.555 4.211 4.211 0 01-3.228-1.297 4.793 4.793 0 01-1.212-3.409 5.021 5.021 0 011.365-3.663 4.631 4.631 0 013.473-1.392 5.55 5.55 0 01.12-.004 5.55 5.55 0 01.122 0zm5.863.155h.836l-.555 2.652h1.661l.567-2.652h.81l-.555 2.652 1.732-.004-.15.697H17.91l-.412 1.98h1.852l-.176.698h-1.816l-.58 2.625h-.83l.567-2.625h-1.65l-.555 2.625h-.81l.555-2.625h-1.74l.131-.698h1.748l.401-1.976h-1.826l.138-.697h1.826zm.142 3.345L15 12.6h1.673l.423-1.98z">
                                             </path>
-                                        </svg> C#</p>
-                                    <p> - <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img"
-                                            viewBox="0 0 24 24" height="1em" width="1em"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <title></title>
-                                            <path
-                                                d="M24 9.533L21.374 0 11.57 2.555l-1.45 2.49-2.945-.022L0 12l7.176 6.978 2.943-.023 1.454 2.49 9.8 2.554L24 14.47 22.508 12 24 9.533zM10.356 5.445l7.499-1.874-4.304 7.251H4.94l5.416-5.377zm0 13.11L4.94 13.18h8.61l4.305 7.251-7.5-1.874zm9.598.696l-4.307-7.25 4.307-7.253L22.033 12l-2.08 7.25z">
-                                            </path>
-                                        </svg> Unity 3D, 2D</p>
-                                    <p><svg stroke="currentColor" fill="currentColor" stroke-width="0"
-                                            viewBox="0 0 448 512" height="1em" width="1em"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M439.8 200.5c-7.7-30.9-22.3-54.2-53.4-54.2h-40.1v47.4c0 36.8-31.2 67.8-66.8 67.8H172.7c-29.2 0-53.4 25-53.4 54.3v101.8c0 29 25.2 46 53.4 54.3 33.8 9.9 66.3 11.7 106.8 0 26.9-7.8 53.4-23.5 53.4-54.3v-40.7H226.2v-13.6h160.2c31.1 0 42.6-21.7 53.4-54.2 11.2-33.5 10.7-65.7 0-108.6zM286.2 404c11.1 0 20.1 9.1 20.1 20.3 0 11.3-9 20.4-20.1 20.4-11 0-20.1-9.2-20.1-20.4.1-11.3 9.1-20.3 20.1-20.3zM167.8 248.1h106.8c29.7 0 53.4-24.5 53.4-54.3V91.9c0-29-24.4-50.7-53.4-55.6-35.8-5.9-74.7-5.6-106.8.1-45.2 8-53.4 24.7-53.4 55.6v40.7h106.9v13.6h-147c-31.1 0-58.3 18.7-66.8 54.2-9.8 40.7-10.2 66.1 0 108.6 7.6 31.6 25.7 54.2 56.8 54.2H101v-48.8c0-35.3 30.5-66.4 66.8-66.4zm-6.7-142.6c-11.1 0-20.1-9.1-20.1-20.3.1-11.3 9-20.4 20.1-20.4 11 0 20.1 9.2 20.1 20.4s-9 20.3-20.1 20.3z">
-                                            </path>
-                                        </svg> Python</p>
-                                    <p> - <svg stroke="currentColor" fill="currentColor" stroke-width="0"
-                                            viewBox="0 0 448 512" height="1em" width="1em"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M439.8 200.5c-7.7-30.9-22.3-54.2-53.4-54.2h-40.1v47.4c0 36.8-31.2 67.8-66.8 67.8H172.7c-29.2 0-53.4 25-53.4 54.3v101.8c0 29 25.2 46 53.4 54.3 33.8 9.9 66.3 11.7 106.8 0 26.9-7.8 53.4-23.5 53.4-54.3v-40.7H226.2v-13.6h160.2c31.1 0 42.6-21.7 53.4-54.2 11.2-33.5 10.7-65.7 0-108.6zM286.2 404c11.1 0 20.1 9.1 20.1 20.3 0 11.3-9 20.4-20.1 20.4-11 0-20.1-9.2-20.1-20.4.1-11.3 9.1-20.3 20.1-20.3zM167.8 248.1h106.8c29.7 0 53.4-24.5 53.4-54.3V91.9c0-29-24.4-50.7-53.4-55.6-35.8-5.9-74.7-5.6-106.8.1-45.2 8-53.4 24.7-53.4 55.6v40.7h106.9v13.6h-147c-31.1 0-58.3 18.7-66.8 54.2-9.8 40.7-10.2 66.1 0 108.6 7.6 31.6 25.7 54.2 56.8 54.2H101v-48.8c0-35.3 30.5-66.4 66.8-66.4zm-6.7-142.6c-11.1 0-20.1-9.1-20.1-20.3.1-11.3 9-20.4 20.1-20.4 11 0 20.1 9.2 20.1 20.4s-9 20.3-20.1 20.3z">
-                                            </path>
-                                        </svg> Django</p>
-                                    <p><svg stroke="currentColor" fill="currentColor" stroke-width="0" version="1.1"
+                                        </svg>&nbsp; C#</td>
+                                    </tr>
+                                    <tr>
+                                        <td> - <i class="fab fa-unity"></i>&nbsp;Unity 3D, 2D</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fab fa-python"></i>&nbsp; Python</td>
+                                    </tr>
+                                    <tr>
+                                        <td><svg stroke="currentColor" fill="currentColor" stroke-width="0" version="1.1"
                                             viewBox="0 0 32 32" height="1em" width="1em"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
                                                 d="M23.116 23.609c-0.009 0.014-0.025 0.016-0.039 0.020-0.056 0.070-0.142 0.089-0.218 0.122-0.816 0.358-1.63 0.722-2.444 1.084-0.068 0.030-0.129 0.021-0.195-0.001-0.421-0.142-0.838-0.293-1.257-0.441-0.511-0.181-1.021-0.361-1.532-0.541-1.025-0.361-2.050-0.722-3.074-1.085-0.615-0.218-1.232-0.433-1.847-0.65-0.913-0.323-1.829-0.641-2.741-0.968-0.145-0.052-0.299-0.082-0.43-0.168-0.007-0.006-0.014-0.013-0.021-0.019-0.030-0.042-0.041-0.092-0.051-0.141-0.052-0.248-0.081-0.497-0.084-0.751-0.044-3.38-0.005-6.759-0.019-10.139-0-0.055 0.009-0.107 0.018-0.16-0-0.011 0.006-0.017 0.015-0.021 0.008-0.007 0.017-0.008 0.026-0.004 0.052 0.027 0.087 0.074 0.127 0.114 4.537 4.537 9.074 9.074 13.611 13.61 0.043 0.043 0.082 0.090 0.137 0.119 0.008 0.006 0.014 0.013 0.019 0.021zM23.12 23.518c-0.022 0.003-0.039-0.005-0.054-0.020-0.021-0.022-0.043-0.043-0.064-0.064-4.555-4.555-9.109-9.109-13.664-13.664-0.033-0.033-0.071-0.063-0.096-0.104 0.033-0.027 0.072-0.034 0.113-0.035 0.037-0.001 0.074-0.001 0.111-0.001 3.307 0 6.613-0.001 9.92 0.001 0.296 0 0.591 0.020 0.882 0.084 0.059 0.013 0.119 0.025 0.166 0.067 0.007 0.005 0.014 0.011 0.022 0.016 0.086 0.139 0.121 0.299 0.175 0.45 0.433 1.232 0.871 2.462 1.302 3.694 0.278 0.794 0.56 1.587 0.84 2.38 0.454 1.285 0.909 2.57 1.36 3.856 0.058 0.165 0.111 0.332 0.177 0.494 0.032 0.080 0.022 0.153-0.013 0.233-0.305 0.678-0.604 1.359-0.905 2.039-0.071 0.16-0.141 0.321-0.214 0.48-0.015 0.033-0.029 0.068-0.058 0.093zM8.986 21.106c0.069 0.002 0.127 0.038 0.189 0.060 0.294 0.103 0.589 0.205 0.883 0.308 0.601 0.212 1.202 0.425 1.804 0.637 0.532 0.187 1.065 0.372 1.597 0.559 0.354 0.124 0.707 0.251 1.060 0.375 0.624 0.22 1.249 0.439 1.874 0.659 0.34 0.12 0.68 0.241 1.020 0.361 0.634 0.224 1.269 0.446 1.904 0.67 0.35 0.123 0.7 0.247 1.050 0.374 0.064 0.023 0.117 0.019 0.18-0.010 0.28-0.128 0.564-0.249 0.846-0.374 0.212-0.093 0.422-0.189 0.634-0.283 0.343-0.152 0.686-0.302 1.029-0.453 0.090-0.040 0.18-0.079 0.269-0.118-0.169 0.524-0.338 1.048-0.507 1.572-0.102 0.317-0.203 0.635-0.304 0.952-0.068 0.214-0.137 0.428-0.204 0.642-0.030 0.096-0.030 0.098-0.131 0.098-0.453 0-0.906-0.001-1.359-0.001-1.279-0.001-2.557 0.009-3.835-0.005-0.983-0.011-1.966-0.003-2.949-0.009-0.061-0-0.106-0.017-0.148-0.061-0.067-0.072-0.139-0.139-0.209-0.209-1.036-1.030-2.072-2.060-3.108-3.090-0.117-0.116-0.233-0.234-0.351-0.349-0.285-0.277-0.501-0.605-0.691-0.95-0.23-0.42-0.413-0.86-0.538-1.323-0.003-0.010-0.003-0.021-0.004-0.031zM23.343 23.845c0.014-0.107 0.078-0.194 0.118-0.29 0.099-0.239 0.207-0.475 0.312-0.712 0.091-0.205 0.183-0.409 0.274-0.614 0.126-0.285 0.251-0.57 0.377-0.855 0.043-0.096 0.085-0.192 0.132-0.286 0.029-0.057 0.037-0.108 0.014-0.171-0.147-0.408-0.293-0.817-0.437-1.227-0.075-0.211-0.146-0.424-0.22-0.635-0.177-0.506-0.354-1.011-0.532-1.516-0.12-0.34-0.241-0.68-0.361-1.020-0.175-0.495-0.349-0.991-0.523-1.486-0.119-0.337-0.239-0.673-0.358-1.010-0.184-0.522-0.366-1.044-0.55-1.566-0.12-0.34-0.241-0.68-0.361-1.020-0.175-0.495-0.347-0.991-0.524-1.485-0.051-0.142-0.107-0.281-0.141-0.428 0.214 0.043 0.418 0.118 0.621 0.197 0.509 0.2 0.988 0.455 1.417 0.797 0.195 0.156 0.365 0.34 0.541 0.516 0.256 0.255 0.509 0.514 0.765 0.77 0.821 0.823 1.641 1.647 2.463 2.469 0.051 0.051 0.073 0.102 0.072 0.174-0.002 1.826-0.002 3.653-0.003 5.479-0 0.941-0.002 1.883-0.003 2.824 0 0.011 0 0.021 0 0.032-0.001 0.085 0.016 0.085-0.084 0.117-0.16 0.051-0.321 0.102-0.481 0.153-0.812 0.259-1.624 0.519-2.435 0.778-0.023 0.007-0.047 0.012-0.071 0.018-0.008-0.002-0.015-0.003-0.023-0.005zM20.603 9.57c-0.124-0.023-0.247-0.047-0.371-0.069-0.107-0.019-0.214-0.031-0.323-0.037-0.709-0.039-1.418-0.018-2.127-0.019-2.912-0.002-5.823-0.001-8.735-0-0.042 0-0.084 0.002-0.126 0.004-0.007-0.001-0.014-0.002-0.021-0.004 0.183-0.136 0.377-0.256 0.567-0.382 0.491-0.327 0.984-0.651 1.476-0.977 1.025-0.678 2.049-1.358 3.074-2.036 0.524-0.347 1.050-0.691 1.573-1.040 0.093-0.062 0.177-0.137 0.287-0.173 0.226-0.076 0.45-0.056 0.673 0.009 0.31 0.089 0.578 0.252 0.816 0.467 0.088 0.080 0.171 0.167 0.256 0.251 0.778 0.772 1.556 1.545 2.335 2.316 0.059 0.058 0.1 0.121 0.127 0.2 0.167 0.484 0.34 0.967 0.51 1.45 0.005 0.013 0.007 0.027 0.010 0.041zM8.884 9.468c0.029 0.042 0.015 0.089 0.015 0.133 0.001 3.413 0.001 6.826 0.001 10.239 0 0.214 0.019 0.427 0.026 0.64 0.006 0.191 0.046 0.381 0.091 0.567 0.008 0.032 0.027 0.065 0.009 0.1-0.252-0.087-0.504-0.173-0.756-0.261-0.255-0.089-0.509-0.18-0.765-0.268-0.058-0.020-0.105-0.051-0.148-0.095-0.843-0.852-1.688-1.701-2.53-2.553-0.277-0.28-0.473-0.609-0.556-0.999-0.036-0.171-0.040-0.341 0.009-0.511 0.021-0.075 0.052-0.146 0.097-0.209 0.303-0.423 0.58-0.863 0.867-1.295 1.113-1.677 2.222-3.356 3.333-5.034 0.101-0.152 0.203-0.303 0.305-0.455z">
                                             </path>
-                                        </svg> Dart</p>
-                                    <p> - <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img"
+                                        </svg>&nbsp; Dart</td>
+                                    </tr>
+                                    <tr>
+                                        <td> - <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img"
                                             viewBox="0 0 24 24" height="1em" width="1em"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <title></title>
                                             <path
                                                 d="M14.314 0L2.3 12 6 15.7 21.684.013h-7.357zm.014 11.072L7.857 17.53l6.47 6.47H21.7l-6.46-6.468 6.46-6.46h-7.37z">
                                             </path>
-                                        </svg> Flutter</p>
-                                    <p><svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img"
+                                        </svg>&nbsp;Flutter<br></td>
+                                    </tr>
+                                    <tr>
+                                        <td><svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img"
                                             viewBox="0 0 24 24" height="1em" width="1em"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <title></title>
                                             <path
                                                 d="M23.82 12a5.78 5.78 0 0 0-5.88-5.67c-.29 0-.6.02-.9.05-2.52.37-4.2 2.18-5.13 3.57-.95-1.39-2.64-3.2-5.14-3.57-.3-.03-.6-.05-.9-.05A5.78 5.78 0 0 0 0 12a5.78 5.78 0 0 0 5.87 5.67c.3 0 .6-.02.92-.06 2.52-.36 4.2-2.17 5.14-3.56.95 1.39 2.63 3.2 5.14 3.57.31.03.6.05.91.05A5.78 5.78 0 0 0 23.82 12zM6.48 15.6c-.2.04-.43.04-.63.04A3.77 3.77 0 0 1 2 11.98a3.78 3.78 0 0 1 3.86-3.66c.2 0 .42.02.63.04 2.37.35 3.82 2.67 4.31 3.62-.5.95-1.95 3.3-4.31 3.62zM13 12c.49-.93 1.94-3.27 4.31-3.62.2-.04.42-.04.62-.04A3.76 3.76 0 0 1 21.8 12a3.78 3.78 0 0 1-3.86 3.66c-.2 0-.42-.02-.62-.04-2.36-.35-3.82-2.69-4.31-3.62zm-8.79.59h3.54v-1.16H4.22v1.16zm14.13 0h1.19v-1.16h-1.2v-1.19H17.2v1.2H16v1.15h1.2v1.18h1.15V12.6zM24 7.06c0 .3-.22.51-.53.51a.51.51 0 0 1-.53-.5c0-.28.24-.52.53-.52.31 0 .53.22.53.51zm-.91 0c0 .22.16.4.4.4.22 0 .38-.18.38-.4s-.16-.4-.38-.4c-.24-.02-.4.16-.4.4zm.3.26h-.1V6.8l.2-.01c.09 0 .14.01.18.03.04.02.06.06.06.11 0 .06-.04.1-.11.11.05.02.07.06.09.13l.03.13h-.12c-.02-.02-.02-.07-.04-.13-.02-.05-.04-.07-.11-.07h-.05l-.02.22zm.02-.3h.06c.07 0 .1-.01.1-.07 0-.05-.03-.07-.1-.07h-.07v.14h.01z">
                                             </path>
-                                        </svg> Arduino</p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-
-                <div class="container my-5">
-                    <div class="row text-center d-flex align-items-center justify-content-center">
-                        <h2>Experiencia</h2>
-                        <p class="lead">Mi viaje personal</p>
-
-                        <div class=" col-lg-12 text-center d-flex my-4 justify-content-center">
-                            <div class="switch-button">
-                                <input class="switch-button-checkbox" type="checkbox"></input>
-                                <label class="switch-button-label" for=""><span
-                                        class="switch-button-label-span">Educación</span></label>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="container my-5">
-                    <div
-                        data-aos="flip-up"
-                        class="row text-center d-flex align-items-center justify-content-center qualification__content">
-                    </div> <!-- Qualification Content before -->
-                </div>
-            </div>
-
-
-            <div id="services" class="container">
-                <div class="row text-center d-flex align-items-center justify-content-center">
-                    <h2>Servicios</h2>
-                    <p class="lead">¿Que ofrezco?</p>
-
-                    <div class="col-5 col-md-3 col-lg-3 my-2 cardBackground alignCenter">
-                        <div>
-                            <p>♥</p>
-                            <p>UI/UX Designer</p>
-                            <a href="">View More</a>
-                        </div>
-                    </div>
-                    <div class="col-5 col-md-3 col-lg-3 my-2 mx-2 cardBackground alignCenter">
-                        <div>
-                            <p>♥</p>
-                            <p>Fontend Developer</p>
-                            <a href="">View More</a>
-                        </div>
-                    </div>
-                    <div class="col-5 col-md-3 col-lg-3 my-2 cardBackground alignCenter">
-                        <div>
-                            <p>♥</p>
-                            <p>Branding Designer</p>
-                            <a href="">View More</a>
+                                        </svg>&nbsp; Arduino</td>
+                                    </tr>
+                                    <tbody>
+                                </table>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div id="portfolio" class="container">
-                <div class="row text-center mt-5">
-                    <h2>Portfolio</h2>
-                    <p class="mb-4 lead">Mis trabajos mas recientes</p>
 
-                    <!-- Carrousel -->
+        <div class="container my-5">
+            <div class="row text-center d-flex align-items-center justify-content-center">
+                <h2>Experiencia</h2>
+                <p class="lead">Mi viaje personal</p>
 
-                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <h2>LocalPP</h2>
-                                <img class="hoverBrightness customCarrousel mt-3"
-                                    src="assets/img/LocalPP Esteban Hirzfeld Portfolio Web Example.png" alt="...">
-                                <p class="mt-4 lead">Una plataforma para comprar y vender saldo de Paypal, actualmente posee
-                                    Front-End y algunas simulaciones de Back-End con Javascript</p>
-                                <a href="https://github.com/estebanhirzfeld/Local-PP" target="_blank"><button class="btn btn-dark my-2"><span><i class="fab fa-github"></i> Git</span></button></a>
-                                <a href="https://estebanhirzfeld.github.io/Local-PP" target="_blank"><button class="btn btn-success"><span>Ver <i class="fas fa-desktop"></i></span></button></a>
-                            </div>
-                            <div class="carousel-item">
-                                <h2>eCommerce React JS</h2>
-                                <img class="hoverBrightness customCarrousel mt-3"
-                                    src="assets/img/eCommerce ReactJS Esteban Hirzfeld Portfolio Web Example.png"
-                                    alt="...">
-                                <p class="mt-4 lead">eCommerce realizada con React Js, cuenta con Carrito de Compras y un
-                                    Inventario traido desde una base de datos con Firebase </p>
-                                <a href="https://github.com/estebanhirzfeld/ecommerce-React" target="_blank"<button class="btn btn-dark my-2"><span><i class="fab fa-github"></i> Git</span></button></a>
-                                <button class="btn btn-success"><span>Ver <i class="fas fa-desktop"></i></span></button>
-                            </div>
-                            <div class="carousel-item">
-                                <h2>CoderHack Make Sense</h2>
-                                <img class="hoverBrightness customCarrousel mt-3"
-                                    src="assets/img/CoderHack Make Sense Esteban Hirzfeld Portfolio Web Example.png"
-                                    alt="...">
-                                <p class="mt-4 lead">Web Realizada para la CoderHack 2021, terminando en 3er Puesto, esta web
-                                    era una plataforma para <a href="https://makesense.org/es/" target="_blank">Make Sense</a></p>
-                                <button class="btn btn-secondary my-2"><span><i class="fab fa-github"></i> Git</span></button>
-                                <a href="https://equipo17-coderhack.netlify.app" target="_blank"><button class="btn btn-success"><span>Ver <i class="fas fa-desktop"></i></span></button></a>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
+                <div class=" col-lg-12 text-center d-flex my-4 justify-content-center">
+                    <div class="switch-button">
+                        <input class="switch-button-checkbox" type="checkbox"></input>
+                        <label class="switch-button-label" for=""><span
+                                class="switch-button-label-span">Educación</span></label>
                     </div>
-                </div>
-            </div>
-
-            <div id="contactMe" class="container">
-                <div class="row">
-                    <h2 class="text-center mt-5 mb-3">¿Tienes un nuevo Proyecto?</h2>
-                    <p class="text-center mb-4 lead">Contáctame</p>
                 </div>
 
             </div>
-            <div class="container contact__container p-3">
-                <div class="row d-flex justify-content-center align-items-center ">
-                    <div class="col-12 col-md-6 col-lg-6 ">
-                        <label class="contact__label contact__label--nombre " for="">Tu nombre</label>
-                        <input class="col-12 col-lg-12 my-3 contact__input contact__input--nombre"
-                            onfocus="this.placeholder=''" onblur="this.placeholder='Tu nombre'" type="text"
-                            placeholder="Tu nombre">
-                        <label class="contact__label contact__label--email" for="">Tu email</label>
-                        <input class="col-12 col-lg-12 my-3 contact__input contact__input--email"
-                            onfocus="this.placeholder=''" onblur="this.placeholder='Tu email'" type="text"
-                            placeholder="Tu email">
-                        <label class="contact__label contact__label--asunto" for="">Asunto</label>
-                        <input class="col-12 col-lg-12 my-3 contact__input contact__input--asunto"
-                            onfocus="this.placeholder=''" onblur="this.placeholder='Asunto'" type="text"
-                            placeholder="Asunto">
-                        <label class="contact__label contact__label--mensaje" for="">Tu mensaje</label>
-                        <textarea
-                            class="col-12 col-lg-12 mb-3 contact__input contact__input--mensaje contact__input--textarea"
-                            onfocus="this.placeholder=''" onblur="this.placeholder='Tu mensaje'" type="text"
-                            placeholder="Tu mensaje"></textarea>
-                        <div class="col-12 col-lg-12 my-3">
-                            <button class="col-4 col-lg-4">
-                                <span>
-                                    Enviar
-                                </span>
-                            </button>
-                        </div>
+        </div>
+
+        <div class="container my-5">
+            <div data-aos="flip-up"
+                class="row text-center d-flex align-items-center justify-content-center qualification__content">
+            </div> <!-- Qualification Content before -->
+        </div>
+    </div>
 
 
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-6 text-center d-flex justify-content-center">
-                        <div class="col-12">
-                            <i class="fas fa-phone fa-lg"></i>
-                            <p class="col-12 my-3 lead">+54 11 39137415</p>
-                            <i class="fas fa-envelope fa-lg"></i>
-                            <p class="col-12 my-3 lead">estebanhirzfeld@gmail.com</p>
-                            <i class="fas fa-map-marker-alt fa-lg"></i>
-                            <p class="col-12 my-3 lead">
-                                Argentina, Buenos Aires, Esteban Echeverria, Luis Guillon</p>
-                        </div>
-                    </div>
+    <div id="services" class="container">
+        <div class="row text-center d-flex align-items-center justify-content-center">
+            <h2>Servicios</h2>
+            <p class="lead">¿Que ofrezco?</p>
+
+            <div class="col-5 col-md-3 col-lg-3 my-2 cardBackground alignCenter">
+                <div>
+                    <p>♥</p>
+                    <p>UI/UX Designer</p>
+                    <a href="">View More</a>
                 </div>
             </div>
+            <div class="col-5 col-md-3 col-lg-3 my-2 mx-2 cardBackground alignCenter">
+                <div>
+                    <p>♥</p>
+                    <p>Fontend Developer</p>
+                    <a href="">View More</a>
+                </div>
+            </div>
+            <div class="col-5 col-md-3 col-lg-3 my-2 cardBackground alignCenter">
+                <div>
+                    <p>♥</p>
+                    <p>Branding Designer</p>
+                    <a href="">View More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio" class="container">
+        <div class="row text-center mt-5">
+            <h2>Portfolio</h2>
+            <p class="mb-4 lead">Mis trabajos mas recientes</p>
+
+            <!-- Carrousel -->
+
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <h2>LocalPP</h2>
+                        <img class="hoverBrightness customCarrousel mt-3"
+                            src="assets/img/LocalPP Esteban Hirzfeld Portfolio Web Example.png" alt="...">
+                        <p class="mt-4 lead">Una plataforma para comprar y vender saldo de Paypal, actualmente posee
+                            Front-End y algunas simulaciones de Back-End con Javascript</p>
+                        <a href="https://github.com/estebanhirzfeld/Local-PP" target="_blank"><button
+                                class="btn btn-dark my-2"><span><i class="fab fa-github"></i> Git</span></button></a>
+                        <a href="https://estebanhirzfeld.github.io/Local-PP" target="_blank"><button
+                                class="btn btn-success"><span>Ver <i class="fas fa-desktop"></i></span></button></a>
+                    </div>
+                    <div class="carousel-item">
+                        <h2>eCommerce React JS</h2>
+                        <img class="hoverBrightness customCarrousel mt-3"
+                            src="assets/img/eCommerce ReactJS Esteban Hirzfeld Portfolio Web Example.png" alt="...">
+                        <p class="mt-4 lead">eCommerce realizada con React Js, cuenta con Carrito de Compras y un
+                            Inventario traido desde una base de datos con Firebase </p>
+                        <a href="https://github.com/estebanhirzfeld/ecommerce-React" target="_blank" <button
+                            class="btn btn-dark my-2"><span><i class="fab fa-github"></i> Git</span></button></a>
+                        <button class="btn btn-success"><span>Ver <i class="fas fa-desktop"></i></span></button>
+                    </div>
+                    <div class="carousel-item">
+                        <h2>CoderHack Make Sense</h2>
+                        <img class="hoverBrightness customCarrousel mt-3"
+                            src="assets/img/CoderHack Make Sense Esteban Hirzfeld Portfolio Web Example.png" alt="...">
+                        <p class="mt-4 lead">Web Realizada para la CoderHack 2021, terminando en 3er Puesto, esta web
+                            era una plataforma para <a href="https://makesense.org/es/" target="_blank">Make Sense</a>
+                        </p>
+                        <button class="btn btn-secondary my-2"><span><i class="fab fa-github"></i> Git</span></button>
+                        <a href="https://equipo17-coderhack.netlify.app" target="_blank"><button
+                                class="btn btn-success"><span>Ver <i class="fas fa-desktop"></i></span></button></a>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="contactMe" class="container">
+        <div class="row">
+            <h2 class="text-center mt-5 mb-3">¿Tienes un nuevo Proyecto?</h2>
+            <p class="text-center mb-4 lead">Contáctame</p>
+        </div>
+
+    </div>
+    <div class="container contact__container p-3">
+        <div class="row d-flex justify-content-center align-items-center ">
+            <div class="col-12 col-md-6 col-lg-6 ">
+                <label class="contact__label contact__label--nombre " for="">Tu nombre</label>
+                <input class="col-12 col-lg-12 my-3 contact__input contact__input--nombre" onfocus="this.placeholder=''"
+                    onblur="this.placeholder='Tu nombre'" type="text" placeholder="Tu nombre">
+                <label class="contact__label contact__label--email" for="">Tu email</label>
+                <input class="col-12 col-lg-12 my-3 contact__input contact__input--email" onfocus="this.placeholder=''"
+                    onblur="this.placeholder='Tu email'" type="text" placeholder="Tu email">
+                <label class="contact__label contact__label--asunto" for="">Asunto</label>
+                <input class="col-12 col-lg-12 my-3 contact__input contact__input--asunto" onfocus="this.placeholder=''"
+                    onblur="this.placeholder='Asunto'" type="text" placeholder="Asunto">
+                <label class="contact__label contact__label--mensaje" for="">Tu mensaje</label>
+                <textarea class="col-12 col-lg-12 mb-3 contact__input contact__input--mensaje contact__input--textarea"
+                    onfocus="this.placeholder=''" onblur="this.placeholder='Tu mensaje'" type="text"
+                    placeholder="Tu mensaje"></textarea>
+                <div class="col-12 col-lg-12 my-3">
+                    <button class="col-4 col-lg-4">
+                        <span>
+                            Enviar
+                        </span>
+                    </button>
+                </div>
+
+
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 text-center d-flex justify-content-center">
+                <div class="col-12">
+                    <i class="fas fa-phone fa-lg"></i>
+                    <p class="col-12 my-3 lead">+54 11 39137415</p>
+                    <i class="fas fa-envelope fa-lg"></i>
+                    <p class="col-12 my-3 lead">estebanhirzfeld@gmail.com</p>
+                    <i class="fas fa-map-marker-alt fa-lg"></i>
+                    <p class="col-12 my-3 lead">
+                        Argentina, Buenos Aires, Esteban Echeverria, Luis Guillon</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
 
-            <script type="text/javascript" src="googleGravity/box-2d.js"></script>
-            <script type="text/javascript" src="googleGravity/gravity.js"></script>
+    <script type="text/javascript" src="googleGravity/box-2d.js"></script>
+    <script type="text/javascript" src="googleGravity/gravity.js"></script>
 
-            <!-- Script de AOS Animate -->
+    <!-- Script de AOS Animate -->
 
-            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-            <script>
-                AOS.init();
-            </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
-            <!-- Script de Iconos -->
-            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <!-- Script de Iconos -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 
-            <!-- Script de Jquery -->
-            <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <!-- Script de Jquery -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 
-            <!-- Script de Bootstrap -->
-            <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Script de Bootstrap -->
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-            <!-- Script de Javascript -->
-            <script src="Js/navBar.js"></script>
+    <!-- Script de Javascript -->
+    <script src="Js/navBar.js"></script>
 
-            <!-- Script de Javascript -->
-            <script src="Js/numbers.js"></script>
+    <!-- Script de Javascript -->
+    <script src="Js/numbers.js"></script>
 
-            <!-- Script de Javascript -->
-            <script src="Js/main.js"></script>
+    <!-- Script de Javascript -->
+    <script src="Js/main.js"></script>
 
 </body>
 

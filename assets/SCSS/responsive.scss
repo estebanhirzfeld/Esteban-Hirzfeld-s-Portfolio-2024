@@ -1,0 +1,12 @@
+@media (min-width: 1024px) {
+    .navBar__controller{
+        display: none;
+    }
+    .desktopNavbar{
+        z-index: 4;
+        position: fixed;
+    }
+    .header__container{
+        padding-top:80px;
+    }
+}
