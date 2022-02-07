@@ -8,28 +8,28 @@ function openedNav() {
         `
         <div class="container-fluid navBar pt-2">
         <div class="row">
-            <button class="col-4 col-md-4 col-lg-4 py-4 home__button">
+            <button class="col-4 col-md-4 col-lg-4 py-4 lead home__button">
                 <span><i class="fas fa-home col-12"></i></span>
                 <span>Home</span>
             </button>
-            <button class="col-4 col-md-4 col-lg-4 py-4 aboutMe__button">
+            <button class="col-4 col-md-4 col-lg-4 py-4 lead aboutMe__button">
                 <span><i class="fas fa-user col-12"></i></span>
                 <span>Acerca de Mi</span>
             </button>
-            <button class="col-4 col-md-4 col-lg-4 py-4 skills__button">
+            <button class="col-4 col-md-4 col-lg-4 py-4 lead skills__button">
                 <span><i class="fas fa-file-invoice col-12"></i></span>
                 <span>Skills</span>
             </button>
     
-            <button class="col-4 col-md-4 col-lg-4 py-4 services__button">
+            <button class="col-4 col-md-4 col-lg-4 py-4 lead services__button">
                 <span><i class="fas fa-briefcase col-12"></i></span>
                 <span>Servicios</span>
             </button>
-            <button class="col-4 col-md-4 col-lg-4 py-4 portfolio__button">
+            <button class="col-4 col-md-4 col-lg-4 py-4 lead portfolio__button">
                 <span><i class="fas fa-image col-12"></i></span>
                 <span>Portfolio</span>
             </button>
-            <button class="col-4 col-md-4 col-lg-4 py-4 contactMe__button">
+            <button class="col-4 col-md-4 col-lg-4 py-4 lead contactMe__button">
                 <span><i class="fas fa-comment-alt col-12"></i></span>
                 <span>Contactarme</span>
             </button>
