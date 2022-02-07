@@ -19,6 +19,6 @@ var targetEmpresas = parseInt($("#targetEmpresas").text());
         }, stepTime);
     }
     
-    animateValue("targetExperiencia", 0, targetExperiencia , 3000);  //id start target duration
-    animateValue("targetProyectos", 0 , targetProyectos , 3000);  //id start target duration
-    animateValue("targetEmpresas", 0 , targetEmpresas , 3000);  //id start target duration
+    animateValue("targetExperiencia", 0, targetExperiencia , 3500);  //id start target duration
+    animateValue("targetProyectos", 0 , targetProyectos , 3500);  //id start target duration
+    animateValue("targetEmpresas", 0 , targetEmpresas , 3500);  //id start target duration
