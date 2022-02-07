@@ -16,15 +16,14 @@
 
 <body>
     
-    <nav class="desktopNavbar container-fluid d-flex justify-content-center align-items-center">
-        <div class="row list-style-none">
-            <li class="text-center desktopNavbar__item--mobile">Esteban Hirzfeld</li>
-            <li class="col-sm-2 col-md-2 col-lg-2 text-center desktopNavbar__item">Home</li>
-            <li class="col-sm-2 col-md-2 col-lg-2 text-center desktopNavbar__item">Acerca de mi</li>
-            <li class="col-sm-2 col-md-2 col-lg-2 text-center desktopNavbar__item">Skills</li>
-            <li class="col-sm-2 col-md-2 col-lg-2 text-center desktopNavbar__item">Servicios</li>
-            <li class="col-sm-2 col-md-2 col-lg-2 text-center desktopNavbar__item">Portfolio</li>
-            <li class="col-sm-2 col-md-2 col-lg-2 text-center desktopNavbar__item">Contacto</li>
+    <nav class="desktopNavbar container-fluid d-md-flex justify-content-center">
+        <div class="row no-gutters list-style-none align-items-center">
+            <li class="col text-center cursor--pointer home__button desktopNavbar__item">Home</li>
+            <li class="col text-center cursor--pointer aboutMe__button desktopNavbar__item w-310">Acerca de mi</li>
+            <li class="col text-center cursor--pointer skills__button desktopNavbar__item">Skills</li>
+            <li class="col text-center cursor--pointer services__button desktopNavbar__item">Servicios</li>
+            <li class="col text-center cursor--pointer portfolio__button desktopNavbar__item">Portfolio</li>
+            <li class="col text-center cursor--pointer contactMe__button desktopNavbar__item">Contacto</li>
         </div>
     </nav>
     
@@ -33,15 +32,15 @@
 
     <div class="container">
         <div class="row d-flex justify-content-center align-items-center">
-            <div class="col-12 col-md-6 col-lg-6"><img class="col-12 col-md-12 col-lg-12"
+            <div data-aos="fade-right" class="col-12 col-md-6 col-lg-6"><img class="col-12 col-md-12 col-lg-12"
                     src="assets/img/Esteban Hirzfeld Portfolio Image.png" alt=""></div>
-            <div class="col-12 col-md-6 col-lg-6">
-                <h1>Hola, Soy Esteban Hirzfeld</h1>
-                <p>Desarrollador Front-End (gris o negrita)</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptatum iste, incidunt
+            <div data-aos="fade-left" class="col-12 col-md-6 col-lg-6">
+                <h1 class="fw-bolder display-4">Hi, I'm Esteban</h1>
+                <p class="text-secondary fw-bold mb-2">Desarrollador Front-End</p>
+                <p class="lead"">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptatum iste, incidunt
                     quisquam mollitia nam.</p>
 
-                <a href="/navBar.html"><button class="btn btn-danger my-3"><span>Contact Me =></span></button></a>
+                <button class="btn btn-danger my-3 contactMe__button"><span>Contact Me </span></button>
             </div>
         </div>
     </div>
@@ -49,26 +48,26 @@
     <div id="aboutMe" class="container">
         <div class="row text-center d-flex mt-5 justify-content-center">
             <h2>Acerca de Mi</h2>
-            <p>Introduccion</p>
+            <p class="lead">Introducción</p>
 
-            <div class="col-10 col-md-6 col-lg-4"><img class="w-100 rounded-circle my-5" src="assets/img/1.png" alt="">
+            <div data-aos="zoom-in" class="col-10 col-md-6 col-lg-4"><img class="w-100 rounded-circle my-5" src="assets/img/1.png" alt="">
             </div>
-            <p class="my-5">Desarrollador Freelance proactivo, en
+            <p class="my-5 lead">Desarrollador Freelance proactivo, en
                 constante crecimiento y aprendizaje,
                 con conocimientos de Desarrollo, Diseño de
                 Software, Marketing y SEO.
             </p>
             <div class="col-4 col-md-4 col-lg-4">
-                <p>01+ (negrita y capaz mas grande)</p>
-                <p>Años de Experiencia</p>
+                <p data-aos="fade-up" class="text-center fw-bolder display-6 mb-1" id="targetExperiencia">01+</p>
+                <p>Años de Experiencia.</p>
             </div>
-            <div class="col-4 col-md-4 col-lg-4">
-                <p>08+ (negrita y capaz mas grande)</p>
-                <p>Proyectos Completados</p>
+            <div data-aos="fade-up" class="col-4 col-md-4 col-lg-4">
+                <p class="text-center fw-bolder display-6 mb-1" id="targetProyectos">08+</p>
+                <p>Proyectos Completados.</p>
             </div>
-            <div class="col-4 col-md-4 col-lg-4">
-                <p>02+ (negrita y capaz mas grande)</p>
-                <p>Empresas con las que trabajé</p>
+            <div data-aos="fade-up" class="col-4 col-md-4 col-lg-4">
+                <p class="text-center fw-bolder display-6 mb-1" id="targetEmpresas">02+</p>
+                <p class="text-center">Empresas con las que trabajé.</p>
             </div>
 
             <button class="btn btn-danger col-4 my-5"><span>Download CV</span></button>
@@ -80,11 +79,11 @@
     <div id="skills" class="container">
         <div class="row">
 
-            <h2 class="mt-5 text-center">Skills</h2>
-            <p class="mb-5 text-center">Mi Nivel Técnico</p>
+            <h2 class=" text-center">Skills</h2>
+            <p class="mb-5 lead text-center">Mi Nivel Técnico</p>
 
             <div id="accordion">
-                <div class="card">
+                <div data-aos="flip-up" class="card">
                     <div class="card-header" id="headingOne">
                         <h5 class="mb-0">
                             <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
@@ -95,7 +94,7 @@
                     </div>
 
                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                        <div class="card-body">
+                        <div class="card-body lead">
                             <p>
                                 <ion-icon name="logo-html5"></ion-icon>HTML
                             </p>
@@ -115,7 +114,7 @@
                     </div>
                 </div>
 
-                <div id="accordion">
+                <div data-aos="flip-up" id="accordion">
                     <div class="card mt-3">
                         <div class="card-header" id="headingTwo">
                             <h5 class="mb-0">
@@ -128,7 +127,7 @@
 
                         <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo"
                             data-parent="#accordion">
-                            <div class="card-body">
+                            <div class="card-body lead">
                                 <p><svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img"
                                         viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
                                         <title></title>
@@ -157,12 +156,11 @@
                     <div id="accordion">
                         <div class="card mt-3">
                             <div class="card-header" id="headingTwo">
-                                <h5 class="mb-0">Tecnologias en las que me sigo perfeccionando (poner este collapse de
-                                    otro color)</h5>
+                                <h5 class="mb-0 text-secondary">Tecnologias en las que me sigo perfeccionando</h5>
                             </div>
                             <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo"
                                 data-parent="#accordion">
-                                <div class="card-body">
+                                <div class="card-body lead">
                                     <p><svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img"
                                             viewBox="0 0 24 24" height="1em" width="1em"
                                             xmlns="http://www.w3.org/2000/svg">
@@ -220,13 +218,13 @@
                 <div class="container my-5">
                     <div class="row text-center d-flex align-items-center justify-content-center">
                         <h2>Experiencia</h2>
-                        <p>Mi viaje personal</p>
+                        <p class="lead">Mi viaje personal</p>
 
                         <div class=" col-lg-12 text-center d-flex my-4 justify-content-center">
                             <div class="switch-button">
                                 <input class="switch-button-checkbox" type="checkbox"></input>
                                 <label class="switch-button-label" for=""><span
-                                        class="switch-button-label-span">Education</span></label>
+                                        class="switch-button-label-span">Educación</span></label>
                             </div>
                         </div>
 
@@ -235,6 +233,7 @@
 
                 <div class="container my-5">
                     <div
+                        data-aos="flip-up"
                         class="row text-center d-flex align-items-center justify-content-center qualification__content">
                     </div> <!-- Qualification Content before -->
                 </div>
@@ -244,7 +243,7 @@
             <div id="services" class="container">
                 <div class="row text-center d-flex align-items-center justify-content-center">
                     <h2>Servicios</h2>
-                    <p>Que Ofrezco?</p>
+                    <p class="lead">¿Que ofrezco?</p>
 
                     <div class="col-5 col-md-3 col-lg-3 my-2 cardBackground alignCenter">
                         <div>
@@ -273,7 +272,7 @@
             <div id="portfolio" class="container">
                 <div class="row text-center mt-5">
                     <h2>Portfolio</h2>
-                    <p class="mb-4">Mis trabajos mas recientes</p>
+                    <p class="mb-4 lead">Mis trabajos mas recientes</p>
 
                     <!-- Carrousel -->
 
@@ -283,19 +282,19 @@
                                 <h2>LocalPP</h2>
                                 <img class="hoverBrightness customCarrousel mt-3"
                                     src="assets/img/LocalPP Esteban Hirzfeld Portfolio Web Example.png" alt="...">
-                                <p class="mt-4">Una Plataforma para comprar y vender saldo de Paypal, actualmente posee
+                                <p class="mt-4 lead">Una plataforma para comprar y vender saldo de Paypal, actualmente posee
                                     Front-End y algunas simulaciones de Back-End con Javascript</p>
-                                <button class="btn btn-dark my-2"><span><i class="fab fa-github"></i> Git</span></button>
-                                <button class="btn btn-success"><span>Ver <i class="fas fa-desktop"></i></span></button>
+                                <a href="https://github.com/estebanhirzfeld/Local-PP" target="_blank"><button class="btn btn-dark my-2"><span><i class="fab fa-github"></i> Git</span></button></a>
+                                <a href="https://estebanhirzfeld.github.io/Local-PP" target="_blank"><button class="btn btn-success"><span>Ver <i class="fas fa-desktop"></i></span></button></a>
                             </div>
                             <div class="carousel-item">
                                 <h2>eCommerce React JS</h2>
                                 <img class="hoverBrightness customCarrousel mt-3"
                                     src="assets/img/eCommerce ReactJS Esteban Hirzfeld Portfolio Web Example.png"
                                     alt="...">
-                                <p class="mt-4">eCommerce realizada con React Js, cuenta con Carrito de Compras y un
+                                <p class="mt-4 lead">eCommerce realizada con React Js, cuenta con Carrito de Compras y un
                                     Inventario traido desde una base de datos con Firebase </p>
-                                <button class="btn btn-dark my-2"><span><i class="fab fa-github"></i> Git</span></button>
+                                <a href="https://github.com/estebanhirzfeld/ecommerce-React" target="_blank"<button class="btn btn-dark my-2"><span><i class="fab fa-github"></i> Git</span></button></a>
                                 <button class="btn btn-success"><span>Ver <i class="fas fa-desktop"></i></span></button>
                             </div>
                             <div class="carousel-item">
@@ -303,10 +302,10 @@
                                 <img class="hoverBrightness customCarrousel mt-3"
                                     src="assets/img/CoderHack Make Sense Esteban Hirzfeld Portfolio Web Example.png"
                                     alt="...">
-                                <p class="mt-4">Web Realizada para la CoderHack 2021, terminando en 3er Puesto, esta web
-                                    era una plataforma para Make Sense(enlace)</p>
-                                <button class="btn btn-dark my-2"><span><i class="fab fa-github"></i> Git</span></button>
-                                <button class="btn btn-success"><span>Ver <i class="fas fa-desktop"></i></span></button>
+                                <p class="mt-4 lead">Web Realizada para la CoderHack 2021, terminando en 3er Puesto, esta web
+                                    era una plataforma para <a href="https://makesense.org/es/" target="_blank">Make Sense</a></p>
+                                <button class="btn btn-secondary my-2"><span><i class="fab fa-github"></i> Git</span></button>
+                                <a href="https://equipo17-coderhack.netlify.app" target="_blank"><button class="btn btn-success"><span>Ver <i class="fas fa-desktop"></i></span></button></a>
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
@@ -325,8 +324,8 @@
 
             <div id="contactMe" class="container">
                 <div class="row">
-                    <h2 class="text-center mt-5 mb-3">Tienes un nuevo Proyecto?</h2>
-                    <p class="text-center mb-4">Contáctame</p>
+                    <h2 class="text-center mt-5 mb-3">¿Tienes un nuevo Proyecto?</h2>
+                    <p class="text-center mb-4 lead">Contáctame</p>
                 </div>
 
             </div>
@@ -362,17 +361,18 @@
                     </div>
                     <div class="col-12 col-md-6 col-lg-6 text-center d-flex justify-content-center">
                         <div class="col-12">
-                            <i class="fas fa-phone"></i>
-                            <p class="col-12 my-3">+54 11 39137415</p>
-                            <i class="fas fa-envelope"></i>
-                            <p class="col-12 my-3">estebanhirzfeld@gmail.com</p>
-                            <i class="fas fa-map-marker-alt"></i>
-                            <p class="col-12 my-3">
+                            <i class="fas fa-phone fa-lg"></i>
+                            <p class="col-12 my-3 lead">+54 11 39137415</p>
+                            <i class="fas fa-envelope fa-lg"></i>
+                            <p class="col-12 my-3 lead">estebanhirzfeld@gmail.com</p>
+                            <i class="fas fa-map-marker-alt fa-lg"></i>
+                            <p class="col-12 my-3 lead">
                                 Argentina, Buenos Aires, Esteban Echeverria, Luis Guillon</p>
                         </div>
                     </div>
                 </div>
             </div>
+
 
             <footer class="container-fluid px-0 mt-5 footer d-flex justify-content-center align-items-center">
                 <div class="row text-center">
@@ -413,6 +413,9 @@
 
             <!-- Script de Javascript -->
             <script src="Js/navBar.js"></script>
+
+            <!-- Script de Javascript -->
+            <script src="Js/numbers.js"></script>
 
             <!-- Script de Javascript -->
             <script src="Js/main.js"></script>

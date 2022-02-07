@@ -52,7 +52,7 @@ function closedNav() {
         `<div data-aos="fade-up" class="container-fluid navBar__controller py-3">
                 <div class="row">
                     <div class="col-8 col-md-8 col-lg-8 d-flex justify-content-start align-items-center">
-                        <button><span>Esteban Hirzfeld</i></span></button>
+                        <button class="home__button"><span>Esteban Hirzfeld</i></span></button>
                     </div>
                     <div class="col-4 col-md-4 col-lg-4 d-flex justify-content-end align-items-center">
                         <button><span><i class="far fa-moon px-2"></i></i></span></button>

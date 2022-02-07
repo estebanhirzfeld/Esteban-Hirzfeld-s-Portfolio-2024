@@ -161,12 +161,6 @@ function Work() {
 
 }
 
-$(".switch-button::before").append(
-    `
-    <p>sexo</p>
-    `
-)
-
 function switchQualification() {
     isEducation = !isEducation;
     if (isEducation) {

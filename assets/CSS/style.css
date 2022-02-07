@@ -107,13 +107,20 @@ p {
     background-color: #EFEFEF; }
 
 .desktopNavbar {
-  border-radius: 0px 0px 15px 15px;
+  color: white;
+  border-bottom: 1px solid #beace4;
   box-shadow: 2px -5px 20px 0px #0b325e;
-  background-color: white;
+  background-color: #7c64b0;
   height: 50px; }
 
 .desktopNavbar {
   display: none; }
+
+.w-310 {
+  width: 310px; }
+
+.cursor--pointer {
+  cursor: pointer; }
 
 .switch-button {
   background: rgba(255, 255, 255, 0.56);
@@ -128,7 +135,7 @@ p {
   padding-right: 120px;
   position: relative; }
   .switch-button:before {
-    content: "Work";
+    content: "Trabajo";
     position: absolute;
     top: 0;
     bottom: 0;
@@ -171,16 +178,3 @@ p {
         transition: transform 300ms; }
       .switch-button-checkbox + .switch-button-label .switch-button-label-span {
         position: relative; }
-
-@media (min-width: 0px) and (max-width: 768px) {
-  .desktopNavbar__item {
-    display: none; }
-  .desktopNavbar__item--mobile {
-    display: block; }
-  .customCarrousel {
-    border-radius: 20px;
-    width: 95%; } }
-
-@media (min-width: 768px) {
-  .desktopNavbar__item--mobile {
-    display: none; } }

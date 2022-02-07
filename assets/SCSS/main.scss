@@ -142,12 +142,21 @@ body {
 
 
 .desktopNavbar{
-    border-radius: 0px 0px 15px 15px;
+    color:white;
+    border-bottom: 1px solid #beace4;
     box-shadow:2px -5px 20px 0px #0b325e;
-    background-color:white;
+    background-color:#7c64b0;
     height:50px;
 }
 
 .desktopNavbar {
     display:none;
+}
+
+.w-310{
+    width: 310px;
+}
+
+.cursor--pointer{
+    cursor: pointer;
 }
