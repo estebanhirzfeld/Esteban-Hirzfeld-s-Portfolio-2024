@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 /* /////////////////////////////// */
 
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
@@ -17,10 +17,18 @@ p {
 }
 
 body {
+    // background-color: #8ec5fc;
+    // background-image: linear-gradient(62deg, #ffffff 0%, #8ec5fc 50%, #e0c3fc 100%);
+
     // background-color: rgb(171, 171, 171);
     // color: #fcfbff;
     // background-color: #13152c;
 }
+
+// body {
+//     background: #011638;
+//     background: linear-gradient(90deg, #011638 0%, #2e294e 50%, #9055a2 100%, #020024 11638%);
+// }
 
 .rule {
     background-color: #7c64b0;
@@ -64,15 +72,14 @@ body {
     box-shadow: 5px 5px 15px 5px rgba(208, 207, 207, 0.31);
 }
 
-.contact__input{
-        outline: 0;
-        border-width: 0 0 2px;
-        border-color: #ced4da;
-        &:focus{
-            display: block;
-            border-color: #7c64b0;
-            border-width: 0 0 3px;
-            
+.contact__input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #ced4da;
+    &:focus {
+        display: block;
+        border-color: #7c64b0;
+        border-width: 0 0 3px;
     }
 }
 
@@ -81,8 +88,7 @@ body {
     height: 80px;
 }
 
-
-.contact__container{
+.contact__container {
     border: 1px solid #ced4da;
 }
 
@@ -96,71 +102,71 @@ body {
     list-style: none;
 }
 
-.footer{
+.footer {
     height: 30px;
     background-color: #7c64b0;
 }
 
-.navBar{
-    z-index:3;
-    background-color: white;
+.navBar {
+    background-color: rgba(133, 117, 202, 0.21);
+    backdrop-filter: blur(10px);
+    z-index: 3;
     border-radius: 30px 30px 0px 0px;
-    box-shadow: 2px 5px 16px 0px #0B325E;
-    position:fixed;
+    box-shadow: 2px 5px 16px 0px #0b325e;
+    position: fixed;
     bottom: 0;
 
-    & button{
-        background-color: white;
-        border:none;
-        border-radius:15px;
+    & button {
+        background-color: rgba(255, 255, 255, 0);
+        border: none;
+        border-radius: 15px;
         outline: none;
     }
-    
-    & button:active{
-        background-color:#EFEFEF;
+
+    & button:active {
+        background-color: #efefef;
     }
 }
 
-.navBar__controller{
-    z-index:3;
-    background-color: white;
+.navBar__controller {
+    background-color: rgba(133, 117, 202, 0.21);
+    backdrop-filter: blur(10px);
+    z-index: 3;
     border-radius: 15px 15px 0px 0px;
-    box-shadow: 2px 5px 16px 0px #0B325E;
-    position:fixed;
+    box-shadow: 2px 5px 16px 0px #0b325e;
+    position: fixed;
     bottom: 0;
 
-    & button{
-        background-color: white;
-        border:none;
+    & button {
+        background-color: rgba(255, 255, 255, 0);
+        border: none;
         outline: none;
     }
-    
-    & button:active{
-        background-color:#EFEFEF;
+
+    & button:active {
+        background-color: #efefef;
     }
-}
-
-
-.desktopNavbar{
-    color:white;
-    border-bottom: 1px solid #beace4;
-    box-shadow:2px -5px 20px 0px #0b325e;
-    background-color:#7c64b0;
-    height:50px;
 }
 
 .desktopNavbar {
-    display:none;
+    background-color: rgba(133, 117, 202, 0.21);
+    backdrop-filter: blur(10px);
+    color: black;
+    box-shadow: 3px -12px 20px 0px #0b325e;
+    height: 50px;
 }
 
-.w-310{
+.desktopNavbar {
+    display: none;
+}
+
+.w-310 {
     width: 310px;
 }
 
-.cursor--pointer{
+.cursor--pointer {
     cursor: pointer;
 }
-
 
 // //Bootstrap Editor
 // .accordion-button:focus {
@@ -175,4 +181,3 @@ body {
 //     background-color: #f0e7ff;
 //     box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
 // }
-
