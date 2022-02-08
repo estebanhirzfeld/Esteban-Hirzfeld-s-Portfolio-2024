@@ -35,7 +35,7 @@ p {
 
 .customCarrousel {
   border-radius: 20px;
-  width: 80%; }
+  width: 95%; }
 
 .hoverBrightness {
   filter: brightness(50%); }
@@ -188,7 +188,9 @@ p {
     z-index: 4;
     position: fixed; }
   .header__container {
-    padding-top: 80px; } }
+    padding-top: 80px; }
+  .customCarrousel {
+    width: 80%; } }
 
 .typewriter {
   overflow: hidden;
