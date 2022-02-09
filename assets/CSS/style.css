@@ -45,10 +45,12 @@ p {
 
 .cardBackground {
   height: auto;
-  padding: 10px;
   background-color: white;
   border-radius: 15px;
   box-shadow: 5px 5px 15px 5px rgba(208, 207, 207, 0.31); }
+
+.cardBackground__servicios {
+  padding: 10px; }
 
 .contact__input {
   outline: 0;
