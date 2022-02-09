@@ -44,7 +44,8 @@ p {
   filter: brightness(100%); }
 
 .cardBackground {
-  height: 100px;
+  height: auto;
+  padding: 10px;
   background-color: white;
   border-radius: 15px;
   box-shadow: 5px 5px 15px 5px rgba(208, 207, 207, 0.31); }
@@ -123,6 +124,11 @@ p {
 
 .cursor--pointer {
   cursor: pointer; }
+
+.contact__button {
+  border: none;
+  outline: none;
+  background-color: #7c64b0; }
 
 .switch-button {
   background: rgba(255, 255, 255, 0.56);
