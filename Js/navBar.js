@@ -9,35 +9,35 @@ function openedNav() {
         <div class="container-fluid navBar  pt-2">
         <div class="row ">
             <button class="col-4 col-md-4 col-lg-4 py-4 home__button">
-                <span><i class="fas fa-home col-12 text-dark"></i></span>
-                <span class="text-dark">Home</span>
+                <span><i class="fas fa-home col-12 navBar__font--color"></i></span>
+                <span class="navBar__font--color">Home</span>
             </button>
             <button class="col-4 col-md-4 col-lg-4 py-4 aboutMe__button">
-                <span><i class="fas fa-user col-12 text-dark"></i></span>
-                <span class="text-dark">Acerca de Mi</span>
+                <span><i class="fas fa-user col-12 navBar__font--color"></i></span>
+                <span class="navBar__font--color">Acerca de Mi</span>
             </button>
             <button class="col-4 col-md-4 col-lg-4 py-4 skills__button">
-                <span><i class="fas fa-file-invoice col-12 text-dark"></i></span>
-                <span class="text-dark">Skills</span>
+                <span><i class="fas fa-file-invoice col-12 navBar__font--color"></i></span>
+                <span class="navBar__font--color">Skills</span>
             </button>
     
             <button class="col-4 col-md-4 col-lg-4 py-4 services__button">
-                <span><i class="fas fa-briefcase col-12 text-dark"></i></span>
-                <span class="text-dark">Servicios</span>
+                <span><i class="fas fa-briefcase col-12 navBar__font--color"></i></span>
+                <span class="navBar__font--color">Servicios</span>
             </button>
             <button class="col-4 col-md-4 col-lg-4 py-4 portfolio__button">
-                <span><i class="fas fa-image col-12 text-dark"></i></span>
-                <span class="text-dark">Portfolio</span>
+                <span><i class="fas fa-image col-12 navBar__font--color"></i></span>
+                <span class="navBar__font--color">Portfolio</span>
             </button>
             <button class="col-4 col-md-4 col-lg-4 py-4 contactMe__button">
-                <span><i class="fas fa-comment-alt col-12 text-dark"></i></span>
-                <span class="text-dark">Contactarme</span>
+                <span><i class="fas fa-comment-alt col-12 navBar__font--color"></i></span>
+                <span class="navBar__font--color">Contactarme</span>
             </button>
     
             <div class="container-fluid">
                 <div class="row pb-2">
                     <div class="col-12 col-md-12 col-lg-12 d-flex justify-content-end align-items-center">
-                        <button class="closeNav__button text-dark"><span><i class="fas fa-times"></i></span></button>
+                        <button class="closeNav__button navBar__font--color"><span><i class="fas fa-times"></i></span></button>
                     </div>
                 </div>
             </div>
@@ -52,11 +52,11 @@ function closedNav() {
         `<div data-aos="fade-up" class="container-fluid navBar__controller py-3">
                 <div class="row">
                     <div class="col-8 col-md-8 col-lg-8 d-flex justify-content-start align-items-center">
-                        <button class="home__button text-dark"><span>Esteban Hirzfeld</i></span></button>
+                        <button class="home__button navBar__font--color"><span>Esteban Hirzfeld</i></span></button>
                     </div>
                     <div class="col-4 col-md-4 col-lg-4 d-flex justify-content-end align-items-center">
-                        <button><span><i class="far fa-moon px-2 text-dark"></i></i></span></button>
-                        <button class="openNav__button text-dark"><span><i class="fas fa-th px-2"></i></span></button>
+                        <button class="darkModeButton"><span><i class="far fa-moon px-2 navBar__font--color"></i></i></span></button>
+                        <button class="openNav__button navBar__font--color"><span><i class="fas fa-th px-2"></i></span></button>
                     </div>
                 </div>
             </div>
@@ -72,7 +72,6 @@ $('.closeNav__button').click(function () {
     $('.closedNav').show();
     $('.openedNav').hide();
 })
-
 
 $('.home__button').click(function () {
     $('html, body').animate({ scrollTop: $('#home').offset().top }, 100);
@@ -103,4 +102,92 @@ $('.contactMe__button').click(function () {
     $('html, body').animate({ scrollTop: $('#contactMe').offset().top }, 100);
     $('.closedNav').show();
     $('.openedNav').hide();
+})
+
+// darkMode /////////////////////////////////////////////////////////////////
+
+isActive = false;
+function switchDarkMode() {
+    isActive = !isActive;
+    if (isActive) {
+        DarkMode();
+    } else {
+        LightMode();
+    }
+}
+
+function DarkMode(){
+    alert("Dark");
+
+    $("body").css({
+        "color": "#fcfbff",
+        "background-image": "linear-gradient(to top, #5f72bd 0%, #330867 100%)"
+    });
+
+    $(".cardBackground").css({
+        "color": "black",
+        "box-shadow":"0px 0px 0px 0px #ffffff00"
+    })
+
+    $(".rule").css({
+        "box-shadow":"0px 0px 0px 0px #ffffff00"
+    })
+
+    $(".ruleDot").css({
+        "box-shadow":"0px 0px 0px 0px #ffffff00"
+    })
+
+    $(".desktopNavBar").css({
+        "color": "white"
+    })
+
+    $(".navBar__controller").css({
+        "color": "white"
+    })
+    
+    $(".navBar__font--color").css({
+        "color": "white"
+    })
+
+}
+
+function LightMode(){
+    alert("Light");
+    
+    $("body").css({
+        "background-image":"none",
+        "color": "black",
+    });
+
+    $(".cardBackground").css({
+        "color": "black",
+        "box-shadow":"5px 5px 15px 5px rgba(208, 207, 207, 0.31)"
+    })
+
+    $(".rule").css({
+        "box-shadow":"5px 5px 15px 5px rgba(208, 207, 207, 0.31)"
+    })
+
+    $(".ruleDot").css({
+        "box-shadow":"5px 5px 15px 5px rgba(208, 207, 207, 0.31)"
+    })
+
+    $(".desktopNavBar").css({
+        "color": "black"
+    })
+
+    $(".navBar__controller").css({
+        "color": "black"
+    })
+
+    $(".navBar__font--color").css({
+        "color": "black"
+    })
+
+}
+
+
+$(".darkModeButton").click(function(){
+    console.log("sexco")
+    switchDarkMode();
 })
