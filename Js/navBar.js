@@ -117,7 +117,6 @@ function switchDarkMode() {
 }
 
 function DarkMode(){
-    alert("Dark");
 
     $("body").css({
         "color": "#fcfbff",
@@ -152,7 +151,6 @@ function DarkMode(){
 }
 
 function LightMode(){
-    alert("Light");
     
     $("body").css({
         "background-image":"none",
