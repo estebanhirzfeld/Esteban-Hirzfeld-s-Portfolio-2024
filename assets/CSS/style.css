@@ -83,6 +83,7 @@ p {
 .navBar {
   background-color: rgba(133, 117, 202, 0.21);
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   z-index: 3;
   border-radius: 30px 30px 0px 0px;
   box-shadow: 2px 5px 16px 0px #0b325e;
@@ -99,6 +100,7 @@ p {
 .navBar__controller {
   background-color: rgba(133, 117, 202, 0.21);
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   z-index: 3;
   border-radius: 15px 15px 0px 0px;
   box-shadow: 2px 5px 16px 0px #0b325e;
@@ -113,6 +115,7 @@ p {
 
 .desktopNavbar {
   background-color: rgba(133, 117, 202, 0.21);
+  -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   color: black;
   box-shadow: 3px -12px 20px 0px #0b325e;
