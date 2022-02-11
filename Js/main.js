@@ -172,7 +172,6 @@ function switchQualification() {
 
 $(".switch-button").click(function () {
     switchQualification()
-    console.log(isEducation);
 })
 
 $(".contact__label").hide();

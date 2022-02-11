@@ -7,6 +7,14 @@
     padding: 0px;
 }
 
+html,
+body {
+    overflow-x: hidden;
+}
+body {
+    position: relative;
+}
+
 :root {
     --body-font: "Open Sans", sans-serif;
 }
@@ -16,8 +24,8 @@ p {
     padding: 0px;
 }
 
-.navBar__font--color{
-    color:black
+.navBar__font--color {
+    color: black;
 }
 
 .rule {
@@ -61,10 +69,9 @@ p {
     border-radius: 15px;
     box-shadow: 5px 5px 15px 5px rgba(208, 207, 207, 0.31);
 }
-.cardBackground__servicios{
-    padding:10px;
+.cardBackground__servicios {
+    padding: 10px;
 }
-
 
 .contact__input {
     outline: 0;
@@ -162,8 +169,24 @@ p {
     cursor: pointer;
 }
 
-.contact__button{
-    border:none;
+.contact__button {
+    border: none;
     outline: none;
-    background-color:#7c64b0;
+    background-color: #7c64b0;
+}
+
+.desktopDarkmode__button {
+    border: none;
+    outline: none;
+    z-index: 4;
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    width: 60px;
+    height: 60px;
+    box-shadow: 5px 5px 15px 5px rgba(66, 66, 66, 0.306);
+}
+
+.desktopDarkmode__button:active {
+    background-color: #e6e6e6;
 }

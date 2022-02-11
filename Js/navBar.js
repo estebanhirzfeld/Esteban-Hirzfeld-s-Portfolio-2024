@@ -1,5 +1,8 @@
 // minified NavBar
 
+// let moon = "fa-regular fa-moon";
+// moon = "fa-solid fa-moon";
+
 closedNav()
 openedNav()
 $('.openedNav').hide();
@@ -48,14 +51,14 @@ function openedNav() {
 }
 
 function closedNav() {
-    $('.closedNav').append(
+    $('.closedNav').html(
         `<div data-aos="fade-up" class="container-fluid navBar__controller py-3">
                 <div class="row">
                     <div class="col-8 col-md-8 col-lg-8 d-flex justify-content-start align-items-center">
                         <button class="home__button navBar__font--color"><span>Esteban Hirzfeld</i></span></button>
                     </div>
                     <div class="col-4 col-md-4 col-lg-4 d-flex justify-content-end align-items-center">
-                        <button class="darkModeButton"><span><i class="far fa-moon px-2 navBar__font--color"></i></i></span></button>
+                        <button class="darkModeButton"><span><i class="fa-regular fa-moon px-2 navBar__font--color"></i></span></button>
                         <button class="openNav__button navBar__font--color"><span><i class="fas fa-th px-2"></i></span></button>
                     </div>
                 </div>
@@ -106,15 +109,26 @@ $('.contactMe__button').click(function () {
 
 // darkMode /////////////////////////////////////////////////////////////////
 
+
+$("body").append(
+    `
+    <button class="darkModeButton desktopDarkmode__button rounded-circle d-flex justify-content-center align-items-center">
+    <span><i class="fa-regular fa-moon fa-lg"></i></span>
+    </button>
+    `
+)
+
 isActive = false;
 function switchDarkMode() {
     isActive = !isActive;
     if (isActive) {
+        
         DarkMode();
     } else {
         LightMode();
     }
 }
+
 
 function DarkMode(){
 
@@ -137,7 +151,7 @@ function DarkMode(){
     })
 
     $(".desktopNavBar").css({
-        "color": "white"
+        "color": "red"
     })
 
     $(".navBar__controller").css({
@@ -147,6 +161,12 @@ function DarkMode(){
     $(".navBar__font--color").css({
         "color": "white"
     })
+    
+    $(".desktopDarkmode__button").css({
+        "color": "white",
+        "background-color": "#2d1052"
+    })
+
 
 }
 
@@ -182,10 +202,14 @@ function LightMode(){
         "color": "black"
     })
 
+    $(".desktopDarkmode__button").css({
+        "color": "black",
+        "background-color": "white"
+    })
+
 }
 
 
 $(".darkModeButton").click(function(){
-    console.log("sexco")
     switchDarkMode();
 })
