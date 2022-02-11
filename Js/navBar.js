@@ -112,7 +112,7 @@ $('.contactMe__button').click(function () {
 
 $("body").append(
     `
-    <button class="darkModeButton desktopDarkmode__button rounded-circle d-flex justify-content-center align-items-center">
+    <button class="darkModeButton desktopDarkmode__button rounded-circle d-lg-flex justify-content-center align-items-center">
     <span><i class="fa-regular fa-moon fa-lg"></i></span>
     </button>
     `
@@ -134,32 +134,33 @@ function DarkMode(){
 
     $("body").css({
         "color": "#fcfbff",
-        "background-image": "linear-gradient(to top, #5f72bd 0%, #330867 100%)"
+        "background-image": "linear-gradient(to top, #5f72bd 0%, #330867 100%)",
     });
 
     $(".cardBackground").css({
         "color": "black",
-        "box-shadow":"0px 0px 0px 0px #ffffff00"
+        "box-shadow":"0px 0px 0px 0px #ffffff00",
     })
 
     $(".rule").css({
-        "box-shadow":"0px 0px 0px 0px #ffffff00"
+        "box-shadow":"0px 0px 0px 0px #ffffff00",
     })
 
     $(".ruleDot").css({
-        "box-shadow":"0px 0px 0px 0px #ffffff00"
+        "box-shadow":"0px 0px 0px 0px #ffffff00",
     })
 
-    $(".desktopNavBar").css({
-        "color": "red"
+    $(".desktopNavbar").css({
+        "color": "white",
     })
+
 
     $(".navBar__controller").css({
-        "color": "white"
+        "color": "white",
     })
     
     $(".navBar__font--color").css({
-        "color": "white"
+        "color": "white",
     })
     
     $(".desktopDarkmode__button").css({

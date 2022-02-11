@@ -76,7 +76,9 @@ p {
   height: 80px; }
 
 .contact__container {
-  border: 1px solid #ced4da; }
+  border: 1px solid #ced4da;
+  background-color: white;
+  color: black; }
 
 .contact__image {
   width: 100px;
@@ -143,6 +145,7 @@ p {
   background-color: #7c64b0; }
 
 .desktopDarkmode__button {
+  display: none;
   border: none;
   outline: none;
   z-index: 4;

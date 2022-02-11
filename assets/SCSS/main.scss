@@ -91,6 +91,8 @@ p {
 
 .contact__container {
     border: 1px solid #ced4da;
+    background-color: white;
+    color: black;
 }
 
 .contact__image {
@@ -176,6 +178,7 @@ p {
 }
 
 .desktopDarkmode__button {
+    display: none;
     border: none;
     outline: none;
     z-index: 4;
@@ -190,3 +193,4 @@ p {
 .desktopDarkmode__button:active {
     background-color: #e6e6e6;
 }
+
