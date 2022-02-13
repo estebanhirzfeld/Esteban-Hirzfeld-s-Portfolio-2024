@@ -191,8 +191,8 @@ function LightMode(){
         "box-shadow":"5px 5px 15px 5px rgba(208, 207, 207, 0.31)"
     })
 
-    $(".desktopNavBar").css({
-        "color": "black"
+    $(".desktopNavbar").css({
+        "color": "black",
     })
 
     $(".navBar__controller").css({
