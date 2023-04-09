@@ -172,7 +172,7 @@ p {
   padding-right: 120px;
   position: relative; }
   .switch-button:before {
-    content: "Trabajo";
+    content: "Work";
     position: absolute;
     top: 0;
     bottom: 0;

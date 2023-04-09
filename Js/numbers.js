@@ -12,7 +12,10 @@ var targetEmpresas = parseInt($("#targetEmpresas").text());
         var obj = document.getElementById(id);
         var timer = setInterval(function() {
             current += increment;
-            obj.innerHTML = ("0"+ current + "+");
+            // obj.innerHTML = ("0"+ current + "+");
+            // if obj.innerHTML has 2 digits, remove the 0, else, keep it and add the + sign
+            obj.innerHTML = (current.toString().length == 2 ? current : "0"+ current) + "+";
+
             if (current == end) {
                 clearInterval(timer);
             }
