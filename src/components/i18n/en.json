@@ -1,0 +1,28 @@
+{
+    "HEADER_PROJECTS_TITLE": "Projects",
+    "HEADER_ABOUT_TITLE": "About me",
+    "HEADER_EXPERIENCE_TITLE": "Experience",
+    "HEADER_CONTACT_TITLE": "Contact",
+
+    "SEO_TITLE": "Steven Hirzfeld's Portfolio - Django NextJS Web Developer and Programmer",
+    "SEO_DESCRIPTION": "Hire estebanhirzfeld to create your web or mobile application. Web Developer. Specialized in creating unique applications.",
+
+    "PROJECTS_NAME_SECTION": "Projects",
+    "ABOUT_NAME_SECTION": "About me",
+    "EXPERIENCE_NAME_SECTION": "Work Experience",
+
+    "HERO_BADGE": "Available for work",
+    "HERO_SALUTE": "Hey, I'm ",
+    "HERO_DESCRIPTION": "<strong>Full-Stack Developer</strong> with solid experience in <strong>Python</strong> and <strong>JavaScript</strong>, specialized in production environments. Known for my pragmatic approach in creating <strong>robust</strong> and <strong>adaptable</strong> software with creative solutions.",
+    "HERO_CONTACT_PILL": "Contact me",
+    
+    "ABOUTME_BASICS_P1": "<p>\n  I'm <strong>Steven Hirzfeld</strong>, although my last name may be a\n  challenge at first, working with me won't be at all 😊. I'm a\n  self-taught and independent professional with a <strong>great passion for development</strong> and <strong>creative problem solving</strong>.\n</p>",
+    "ABOUTME_BASICS_P2": "<p>\n  My specialization as a <strong>Full-Stack Developer</strong> focuses on\n  creating <strong>robust</strong> and adaptable software for production environments,\n  using tools like <strong>Javascript</strong> (React, NextJS, Node)\n  and <strong>Python</strong> (Django, Rest Framework), backed by\n  databases like MongoDB and PostgreSQL.\n</p>",
+    "ABOUTME_BASICS_P3": "<p>\n  With great accuracy and soft skills (ENFJ),\n  I firmly believe that knowledge gives us freedom. That's why, not only\n  do I dedicate myself to software development, but I also reserve time to\n  cultivate new learnings, whether it's <strong>playing the piano, practicing sports, or reading a good book.</strong>\n</p>",
+
+    "EXPERIENCE_LEARN_MORE": "Learn more",
+    "EXPERIENCE_CURRENTLY": "Currently",
+
+    "FOOTER_ABOUT_TITLE": "About me",
+    "FOOTER_CONTACT_TITLE": "Contact"
+}

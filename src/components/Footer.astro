@@ -1,5 +1,10 @@
 ---
 const currentYear = new Date().getFullYear()
+import { getI18N } from "../components/i18n";
+
+
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
 ---
 
 <footer
@@ -16,10 +21,10 @@ const currentYear = new Date().getFullYear()
       class="flex flex-wrap items-center mt-3 text-sm font-medium dark:text-white/90 sm:mt-0"
     >
       <li>
-        <a href="/#sobre-mi" class="hover:underline me-4 md:me-6">Sobre mí</a>
+        <a href="#sobre-mi" class="hover:underline me-4 md:me-6">{i18n.FOOTER_ABOUT_TITLE}</a>
       </li>
       <li>
-        <a href="mailto:estebanhirzfeld@gmail.com" class="hover:underline">Contacto</a>
+        <a href="mailto:estebanhirzfeld@gmail.com" class="hover:underline">{i18n.FOOTER_CONTACT_TITLE}</a>
       </li>
     </ul>
   </div>

@@ -1,6 +1,10 @@
 ---
 import LinkInline from "./LinkInline.astro";
 
+import { getI18N } from "../components/i18n";
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
+
 const { name, position, url, startDate, endDate, summary, highlights } =
   Astro.props;
 ---
@@ -19,7 +23,7 @@ const { name, position, url, startDate, endDate, summary, highlights } =
         {name}
       </h4>
       <time class="p-0 m-0 text-sm text-gray-600/80 dark:text-white/80"
-        >{startDate} - {endDate ?? "Actualmente..."}</time
+        >{startDate} - {endDate ?? `${i18n.EXPERIENCE_CURRENTLY}...`}</time
       >
     </div>
   </div>
@@ -30,7 +34,7 @@ const { name, position, url, startDate, endDate, summary, highlights } =
     {
       url && (
         <LinkInline href={url}>
-          Saber más
+          {i18n.EXPERIENCE_LEARN_MORE}
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="w-5 icon icon-tabler icon-tabler-chevron-right"

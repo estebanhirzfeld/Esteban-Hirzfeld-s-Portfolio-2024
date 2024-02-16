@@ -1,26 +1,32 @@
 ---
 import ThemeToggle from "./ThemeToggle.astro"
 
+import { getI18N } from "../components/i18n";
+
+
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
+
 const navItems = [
   {
-    title: "Proyectos",
+    title: i18n.HEADER_PROJECTS_TITLE,
     label: "proyectos",
-    url: "/#proyectos",
+    url: "#proyectos",
   },
   {
-    title: "Sobre mí",
+    title: i18n.HEADER_ABOUT_TITLE,
     label: "sobre-mi",
-    url: "/#sobre-mi",
+    url: "#sobre-mi",
   },
   {
-    title: "Experiencia",
+    title: i18n.HEADER_EXPERIENCE_TITLE,
     label: "experiencia",
-    url: "/#experiencia",
+    url: "#experiencia",
   },
   {
-    title: "Contacto",
+    title: i18n.HEADER_CONTACT_TITLE,
     label: "contacto",
-    url: "/#contacto",
+    url: "mailto:estebanhirzfeld@gmail.com",
   },
 ]
 ---

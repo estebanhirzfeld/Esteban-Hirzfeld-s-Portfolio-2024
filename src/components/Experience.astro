@@ -1,6 +1,8 @@
 ---
-import { work } from "../../cv.json";
 import ExperienceItem from "./ExperienceItem.astro";
+const { currentLocale } = Astro;
+const { work } = await import(`../../cv-${currentLocale}.json`);
+
 ---
 
 <ol class="relative mt-16">

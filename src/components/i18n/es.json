@@ -1,0 +1,31 @@
+{
+    
+    "HEADER_PROJECTS_TITLE" : "Proyectos",
+    "HEADER_ABOUT_TITLE" : "Sobre mí",
+    "HEADER_EXPERIENCE_TITLE" : "Experiencia",
+    "HEADER_CONTACT_TITLE" : "Contacto",
+
+    "SEO_TITLE": "Portfolio de Esteban Hirzfeld - Desarrollador y Programador Web Django NextJS",
+    "SEO_DESCRIPTION": "Contrata a estebanhirzfeld para crear tu aplicación web o móvil. Desarrollador Web. Especializado en crear aplicaciones únicas.",
+
+    "INDEX_PROJECTS_SECTION": "Proyectos",
+    "INDEX_ABOUT_SECTION": "Sobre mí",
+    "INDEX_EXPERIENCE_SECTION": "Experiencia laboral",
+    
+    "HERO_BADGE": "Disponible para trabajar",
+    "HERO_SALUTE": "Hey, soy ",
+    "HERO_DESCRIPTION": "<strong>Full-Stack Developer</strong> con experiencia sólida en <strong>Python</strong> y <strong>JavaScript</strong>, especializado en entornos de producción. Destacado por mi enfoque pragmático en la creación de software <strong>robusto</strong> y <strong>adaptable</strong> con soluciones creativas.",
+    "HERO_CONTACT_PILL": "Contáctame",
+    
+    "ABOUTME_BASICS_P1": "<p>\n  Soy <strong>Esteban Hirzfeld</strong>, aunque mi apellido puede ser un\n  desafío al principio, trabajar conmigo no lo será en absoluto 😊, soy un\n  profesional autodidacta y autónomo con una <strong>gran pasión por el desarrollo</strong> y la <strong>resolución creativa de problemas</strong>.\n</p>",
+    "ABOUTME_BASICS_P2": "<p>\n  Mi especialización como <strong>Full-Stack Developer</strong> se centra en\n  crear software <strong>robusto</strong> y adaptable para entornos de producción,\n  utilizando herramientas como <strong>Javascript</strong> (React, NextJS, Node)\n  y <strong>Python</strong> (Django, Rest Framework), respaldado por bases de\n  datos como MongoDB y PostgreSQL.\n</p>",
+    "ABOUTME_BASICS_P3": "<p>\n  <strong>Con una gran acertividad y habilidades blandas (ENFJ)</strong>,\n  creo firmemente que el conocimiento nos brinda libertad. Por ello, no solo\n  me dedico al desarrollo de software, sino que también reservo tiempo para\n  cultivar nuevos aprendizajes, ya sea <strong>tocando el piano, practicando deportes o leyendo un buen libro.</strong>\n</p>",
+
+    "EXPERIENCE_LEARN_MORE": "Saber más",
+    "EXPERIENCE_CURRENTLY": "Actualmente",
+
+    "FOOTER_ABOUT_TITLE": "Sobre mí",
+    "FOOTER_CONTACT_TITLE": "Contacto"
+}
+
+
