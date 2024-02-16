@@ -1,0 +1,25 @@
+---
+import { basics } from "../../cv.json";
+
+const { name, image } = basics;
+---
+
+<article
+  class="flex flex-col items-center justify-center gap-8 text-gray-700 dark:text-gray-300 md:flex-row"
+>
+  <div
+    class="[&>p]:mb-4 [&>p>strong]:text-yellow-500 dark:[&>p>strong]:text-yellow-100 [&>p>strong]:font-normal [&>p>strong]:font-mono text-pretty order-2 md:order-1"
+  >
+  <p>Soy <strong>Esteban Hirzfeld</strong>, aunque mi apellido puede ser un desafío al principio, trabajar conmigo no lo será en absoluto 😊, soy un profesional autodidacta y autónomo con una <strong>gran pasión por el desarrollo</strong> y la <strong>resolución creativa de problemas</strong>.</p>
+  <p>Mi especialización como <strong>Full-Stack Developer</strong> se centra en crear software <strong>robusto</strong> y adaptable para entornos de producción, utilizando herramientas como <strong>Javascript</strong> (React, NextJS, Node) y <strong>Python</strong> (Django, Rest Framework), respaldado por bases de datos como MongoDB y PostgreSQL.</p>
+  <p><strong>Con una gran acertividad y habilidades blandas (ENFJ)</strong>, creo firmemente que el conocimiento nos brinda libertad. Por ello, no solo me dedico al desarrollo de software, sino que también reservo tiempo para cultivar nuevos aprendizajes, ya sea <strong>tocando el piano, practicando deportes o leyendo un buen libro.</strong></p>
+  </div>
+
+  <img
+    width="200"
+    height="200"
+    src="estebanhirzfeld.PNG"
+    alt={name}
+    class="order-1 object-cover w-64 h-full p-1 bg-white md:order-2 rotate-3 lg:p-2 lg:w-64 aspect-square rounded-2xl dark:bg-yellow-500/5 ring-1 ring-white/20 object-center"
+  />
+</article>

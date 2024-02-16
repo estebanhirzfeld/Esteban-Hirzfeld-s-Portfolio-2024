@@ -1,0 +1,14 @@
+---
+import { work } from "../../cv.json";
+import ExperienceItem from "./ExperienceItem.astro";
+---
+
+<ol class="relative mt-16">
+  {
+    work.map((experiencie) => (
+      <li class="">
+        <ExperienceItem {...experiencie} />
+      </li>
+    ))
+  }
+</ol>

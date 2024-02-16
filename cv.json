@@ -1,0 +1,401 @@
+{
+  "basics": {
+    "name": "Esteban Hirzfeld",
+    "label": "Full Stack Developer Python + JavaScript (Django + ReactJs)",
+    "image": "/me.jpg",
+    "email": "estebanhirzfeld@gmail.com",
+    "phone": "+54 1139137415",
+    "url": "https://example.com",
+    "summary": "Full-Stack Developer con experiencia sólida en Python y JavaScript, especializado en entornos de producción. Destacado por mi enfoque pragmático en la creación de software robusto y adaptable con soluciones creativas.",
+    "location": {
+      "address": "",
+      "postalCode": "1838",
+      "city": "Buenos Aires",
+      "countryCode": "ES",
+      "region": "Argentina"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "esteban-hirzfeld",
+        "url": "https://linkedin.com/in/esteban-hirzfeld"
+      },
+      {
+        "network": "GitHub",
+        "username": "estebanhirzfeld",
+        "url": "https://github.com/estebanhirzfeld"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "CoderHouse",
+      "position": "Tutor & Coordinador Cursos de Programacion",
+      "url": "https://coderhouse.com",
+      "startDate": "2021-01-01",
+      "endDate": null,
+      "summary": "Tutor de distintos cursos, entre ellos:\n- React.\n- JavaScript. \n- Desarrollo web (HTML + CSS, Bootstrap SASS)\n- Python (Django)\n- NextJs\n\nAproximadamente 45 estudiantes a cargo por comisión, de los cuales tengo que:\n\n- Responder dudas durante las clases. (200 alumnos aprox.)\n- Responder dudas fuera de clase.\n- Corrección de desafíos y preentregas de proyectos.\n- Dictado de clases complementarias para profundizar temas o reforzar conocimientos.",
+      "highlights": [
+        "4.9 - 5.0 out of 5 average performance rating"
+      ]
+    },
+    {
+      "name": "Freelancer",
+      "position": "Front End Developer",
+      "url": "https://freelancer.com",
+      "startDate": "2021-09-01",
+      "endDate": null,
+      "summary": "Desarrollo de Landing Pages para clientes particulares, junto con un equipo de Diseño UX UI.",
+      "highlights": [
+        "Capacidad de encontrar soluciones ante la adversidad"
+      ]
+    },
+    {
+      "name": "Youtube",
+      "position": "Youtuber (160K Subscribers)",
+      "startDate": "2020-05-01",
+      "endDate": "2021-06-01",
+      "summary": "Encargado de Estrategias de Marketing Análisis de la competencia Copywriting Optimización del contenido (SEO) Creación y edición de contenido audiovisual.",
+      "highlights": [
+        "Started the company"
+      ]
+    }
+  ],
+  "volunteer": [{
+    "organization": "Organization",
+    "position": "Volunteer",
+    "url": "https://organization.com/",
+    "startDate": "2012-01-01",
+    "endDate": "2013-01-01",
+    "summary": "Description…",
+    "highlights": [
+      "Awarded 'Volunteer of the Month'"
+    ]
+  }],
+  "education": [
+    {
+      "institution": "Henry",
+      "url": "https://soyhenry.com",
+      "area": "Full-Stack MERN",
+      "studyType": "Course",
+      "startDate": "2022-03-01",
+      "endDate": "2022-06-01",
+      "score": null,
+      "courses": [
+        "Desarrollo Web",
+        "JavaScript",
+        "ReactJs",
+        "Express (Backend Js)"
+      ]
+    },
+    {
+    "institution": "CoderHouse",
+    "url": "https://coderhouse.com",
+    "area": "Desarrollo de Software",
+    "studyType": "Course",
+    "startDate": "2021-06-01",
+    "endDate": "2022-06-01",
+    "score": null,
+    "courses": [
+      "Desarrollo Web",
+      "JavaScript",
+      "ReactJs",
+      "Express (Backend Js)",
+      "Unity 3D (GameDev C#)",
+      "Python (Backend Django)",
+      "AWS"
+    ]
+  },
+  {
+    "institution": "UTN (Universidad Tecnológica Nacional)",
+    "url": "https://www.utn.edu.ar/es/",
+    "area": "Ingeniería de Sistemas",
+    "studyType": "Universitario",
+    "startDate": "2021-03-01",
+    "endDate": null,
+    "score": null,
+    "courses": null
+  },
+  {
+    "institution": "Instituto Tecnológico San Bonifacio",
+    "url": "http://institutosanbonifacio.edu.ar",
+    "area": "Electrónica",
+    "studyType": "Técnico",
+    "startDate": "2003-01-01",
+    "endDate": "2009-01-01",
+    "score": null,
+    "courses": null
+  }
+],
+  "awards": [    {
+    "title": "Reconocimiento CoderHouse Top 10",
+    "date": "2021-11-01",
+    "awarder": "CoderHouse",
+    "summary": "Reconocimiento por el desempeño académico destacado"
+  }],
+  "certificates": [{
+    "name": "Full-Stack MERN",
+    "date": "2022-06-01",
+    "issuer": "CoderHouse",
+    "url": null
+  },
+  {
+    "name": "Python (Django)",
+    "date": "2021-07-01",
+    "issuer": "Henry",
+    "url": null
+  },
+  {
+    "name": "AWS",
+    "date": "2023-01-01",
+    "issuer": "CoderHouse",
+    "url": null
+  },
+  {
+    "name": "Desarrollo de Videojuegos Unity 3D",
+    "date": "2021-09-01",
+    "issuer": "CoderHouse",
+    "url": null
+  }
+],
+  "publications": null,
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "Astro Build",
+      "level": "Intermedio",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+      ]
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Avanzado",
+      "keywords": [ 
+        "SQL", "Base de datos", "Desarrollo de aplicaciones", "Administración de bases de datos"
+      ]
+    },
+    {
+      "name": "Selenium",
+      "level": "Master",
+      "keywords": [
+        "Testing", "Web Scraping", "Automatizacion"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+      ]
+    },
+    {
+      "name": "Unity 3D C#",
+      "level": "Intermedio",
+      "keywords": [
+        "Desarrollo De Videojuegos"
+      ]
+    },
+    {
+      "name": "Docker",
+      "level": "Intermedio",
+      "keywords": [ 
+        "Contenedores", "Virtualización", "Despliegue", "Orquestación"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Backend", "Fullstack"
+      ]
+    },
+    {
+      "name": "Django",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Backend", "Fullstack"
+      ]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Intermedio",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Intermedio",
+      "keywords": [
+        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Intermedio",
+      "keywords": [
+        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "level": "Intermedio",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [{
+    "name": "Piano",
+    "keywords": [
+      "Composicion",
+      "Musica"
+    ]
+  }],
+  "references": null,
+  "projects": [
+    {
+      "name": "eCommerce React + Django + Web Scraping",
+      "isActive": false,
+      "description": "eCommerce hecho con React en el Front-End y Django en el Back-End, geolocalización con Leaflet, Admin Panel, Mercadopago Payment, Web Scraping de 13 sitios diferentes, Reviews, Ratings, y más.",
+      "highlights": [
+        "Web Scrapping",
+        "Geolocalizacion",
+        "Selenium",
+        "React & Redux"
+      ],
+      "url": null,
+      "images": [
+        "/projects/django-react/django-react-ecommerce.png",
+        "/projects/django-react/django-react-ecommerce-2.png",
+        "/projects/django-react/django-react-ecommerce-3.png",
+        "/projects/django-react/django-react-ecommerce-4.png"
+      ]
+    },
+    {
+      "name": "TikTok - Clone",
+      "isActive": true,
+      "description": "Replica las características clave de TikTok, desarrollada con Next.js y Django Rest Framework. Incluye documentación completa, sistema de usuarios, seguidores, feed de vídeos con búsqueda elástica, etiquetas, sistema de comentarios y capacidad de dar 'me gusta' a vídeos y comentarios.\n La aplicación también ofrece perfiles de usuario para ver actividad, como vídeos subidos, 'me gusta', vídeos guardados, seguidos y seguidores. con la posibilidad de mantener perfiles privados que requieren solicitud de seguimiento para ver vídeos y datos personales.",
+      "highlights": [
+        "SSR",
+        "Almost all basic features",
+        "Django & NextJs",
+        "Docker"
+      ],
+      "url": "https://github.com/estebanhirzfeld/TikTok-Clone",
+      "github": "https://github.com/estebanhirzfeld/TikTok-Clone",
+      "images": [
+        "/projects/tiktok-clone/tiktok-clone.png",
+        "/projects/tiktok-clone/tiktok-clone-2.png",
+        "/projects/tiktok-clone/tiktok-clone-3.png"
+      ]
+    },
+    {
+      "name": "WhatsApp - Clone",
+      "isActive": true,
+      "description": "Desarrollado utilizando JavaScript Vanilla y WebSockets para la comunicación en tiempo real. Diseño responsive utilizando Bootstrap, soporte completo para imágenes, enlaces, vídeos de YouTube embebidos, GIFs y emojis.",
+      "highlights": [
+        "WebSockets",
+        "UX UI",
+        "Javascript"
+      ],
+      "url": "https://leeward-moored-aristosuchus.glitch.me",
+      "github": "https://github.com/estebanhirzfeld/WhatsApp-Clone",
+      "images": [
+        "/projects/whatsapp-clone/whatsapp-clone.png",
+        "/projects/whatsapp-clone/whatsapp-clone-2.png"
+      ]
+    },
+    {
+      "name": "Python Web Scrapping multiples casos",
+      "isActive": true,
+      "description": "Técnicas de web scraping utilizando Python para extraer datos de diversas páginas web. Abarcan diferentes sitios web y utiliza una variedad de bibliotecas y herramientas, como BeautifulSoup, Requests, Selenium y Spyder.",
+      "highlights": [
+        "Web scraping",
+        "Python",
+        "BeautifulSoup",
+        "Requests",
+        "Selenium",
+        "Spyder"
+      ],
+      "url": "https://github.com/estebanhirzfeld/Python-Web-Scrapping",
+      "github": "https://github.com/estebanhirzfeld/Python-Web-Scrapping",
+      "images": [
+        "/projects/web-scrapping-cases/web-scrapping-cases.png",
+        "/projects/web-scrapping-cases/web-scrapping-cases.png"
+      ]
+    },
+    {
+      "name": "Django API Boilerplate",
+      "isActive": true,
+      "description": "Boilerplate de API de Django! diseñado para comenzar rápidamente un proyecto de Django con una base sólida, construido para escalabilidad, optimizado para rendimiento siguiendo las mejores prácticas.",
+      "highlights": [
+        "Django",
+        "API",
+        "Boilerplate",
+        "Escalabilidad",
+        "Rendimiento",
+        "Docker"
+      ],
+      "url": "https://github.com/estebanhirzfeld/Django-API-Boilerplate",
+      "github": "https://github.com/estebanhirzfeld/Django-API-Boilerplate",
+      "images": [
+        "/projects/django-boilerplate/django-boilerplate.png",
+        "/projects/django-boilerplate/django-boilerplate-2.png",
+        "/projects/django-boilerplate/django-boilerplate-3.png"
+      ]
+    }
+  ]
+}
