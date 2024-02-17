@@ -1,13 +1,18 @@
 ---
 import ThemeToggle from "./ThemeToggle.astro"
-
 import { getI18N } from "../components/i18n";
 
+// TODO: Fix Language
 
 const { currentLocale } = Astro;
 const i18n = getI18N({ currentLocale });
 
 const navItems = [
+{
+    title: currentLocale === 'en' ? '🇦🇷' : '🇺🇸',
+    label: currentLocale,
+    url: "/" + (currentLocale === 'en' ? '' : 'en'),
+  },
   {
     title: i18n.HEADER_PROJECTS_TITLE,
     label: "proyectos",
@@ -37,6 +42,7 @@ const navItems = [
   <nav
     class="flex px-3 text-sm font-medium rounded-full text-gray-600 dark:text-gray-200 justify-center items-center"
   >
+  <astro:language-switcher />
     {
       navItems.map((link) => (
         <a
