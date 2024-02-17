@@ -1,5 +1,4 @@
 {
-    
     "HEADER_PROJECTS_TITLE" : "Proyectos",
     "HEADER_ABOUT_TITLE" : "Sobre mí",
     "HEADER_EXPERIENCE_TITLE" : "Experiencia",
@@ -8,9 +7,9 @@
     "SEO_TITLE": "Portfolio de Esteban Hirzfeld - Desarrollador y Programador Web Django NextJS",
     "SEO_DESCRIPTION": "Contrata a estebanhirzfeld para crear tu aplicación web o móvil. Desarrollador Web. Especializado en crear aplicaciones únicas.",
 
-    "INDEX_PROJECTS_SECTION": "Proyectos",
-    "INDEX_ABOUT_SECTION": "Sobre mí",
-    "INDEX_EXPERIENCE_SECTION": "Experiencia laboral",
+    "PROJECTS_NAME_SECTION": "Proyectos",
+    "ABOUT_NAME_SECTION": "Sobre mí",
+    "EXPERIENCE_NAME_SECTION": "Experiencia laboral",
     
     "HERO_BADGE": "Disponible para trabajar",
     "HERO_SALUTE": "Hey, soy ",
