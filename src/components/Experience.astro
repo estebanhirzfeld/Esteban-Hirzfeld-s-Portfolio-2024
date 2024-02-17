@@ -3,11 +3,19 @@ import ExperienceItem from "./ExperienceItem.astro";
 const { currentLocale } = Astro;
 const { work } = await import(`../../cv-${currentLocale}.json`);
 
+interface Experience {
+  name: string;
+  position: string;
+  url: string;
+  startDate: string;
+  endDate: string;
+  summary: string;
+}
 ---
 
 <ol class="relative mt-16">
   {
-    work.map((experiencie) => (
+    work.map((experiencie: Experience) => (
       <li class="">
         <ExperienceItem {...experiencie} />
       </li>

@@ -10,11 +10,15 @@ const { currentLocale } = Astro;
 const i18n = getI18N({ currentLocale });
 const { basics } = await import(`../../cv-${currentLocale}.json`);
 
-const { name, image, phone, email, profiles } = basics;
+const { name, image, email, profiles } = basics;
 const firstName = name.split(" ")[0];
-const linkedInfo = profiles.find(({ network }) => network === "LinkedIn");
+const linkedInfo = profiles.find(
+  ({ network }: { network: string }) => network === "LinkedIn"
+);
 const linkedInUrl = linkedInfo?.url;
-const GitHubInfo = profiles.find(({ network }) => network === "GitHub");
+const GitHubInfo = profiles.find(
+  ({ network }: { network: string }) => network === "GitHub"
+);
 const gitHubUrl = GitHubInfo?.url;
 ---
 

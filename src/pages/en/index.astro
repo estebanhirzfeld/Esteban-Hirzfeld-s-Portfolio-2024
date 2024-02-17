@@ -10,10 +10,33 @@ import Projects from "../../components/Projects.astro";
 import SectionContainer from "../../components/SectionContainer.astro";
 import Hero from "../../components/Hero.astro";
 
+interface I18nData {
+  HEADER_PROJECTS_TITLE: string;
+  HEADER_ABOUT_TITLE: string;
+  HEADER_EXPERIENCE_TITLE: string;
+  HEADER_CONTACT_TITLE: string;
+  SEO_TITLE: string;
+  SEO_DESCRIPTION: string;
+  PROJECTS_NAME_SECTION: string;
+  ABOUT_NAME_SECTION: string;
+  EXPERIENCE_NAME_SECTION: string;
+  HERO_BADGE: string;
+  HERO_SALUTE: string;
+  HERO_DESCRIPTION: string;
+  HERO_CONTACT_PILL: string;
+  ABOUTME_BASICS_P1: string;
+  ABOUTME_BASICS_P2: string;
+  ABOUTME_BASICS_P3: string;
+  EXPERIENCE_LEARN_MORE: string;
+  EXPERIENCE_CURRENTLY: string;
+  FOOTER_ABOUT_TITLE: string;
+  FOOTER_CONTACT_TITLE: string;
+}
+
 import { getI18N } from "../../components/i18n";
 
 const { currentLocale } = Astro;
-const i18n = getI18N({ currentLocale });
+const i18n: I18nData = getI18N({ currentLocale });
 ---
 
 <Layout
@@ -22,7 +45,7 @@ const i18n = getI18N({ currentLocale });
 >
   <main class="px-4">
     <SectionContainer class="py-16 md:py-36">
-      <Hero/>
+      <Hero />
     </SectionContainer>
 
     <div class="space-y-24">

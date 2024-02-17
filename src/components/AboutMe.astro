@@ -4,7 +4,7 @@ const { currentLocale } = Astro;
 const i18n = getI18N({ currentLocale });
 
 const { basics } = await import(`../../cv-${currentLocale}.json`);
-const { name, image } = basics;
+const { name } = basics;
 ---
 
 <article
