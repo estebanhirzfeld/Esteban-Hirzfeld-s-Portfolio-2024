@@ -39,10 +39,7 @@ const { currentLocale } = Astro;
 const i18n: I18nData = getI18N({ currentLocale });
 ---
 
-<Layout
-  title={i18n.SEO_TITLE}
-  description="Contrata a estebanhirzfeld para crear tu aplicación web o móvil. Desarrollador Web. Especializado en crear aplicaciones únicas."
->
+<Layout title={i18n.SEO_TITLE} description={i18n.SEO_DESCRIPTION}>
   <main class="px-4">
     <SectionContainer class="py-16 md:py-36">
       <Hero />
