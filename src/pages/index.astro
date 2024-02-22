@@ -17,6 +17,7 @@ interface I18nData {
   HEADER_CONTACT_TITLE: string;
   SEO_TITLE: string;
   SEO_DESCRIPTION: string;
+  SEO_THUMBNAIL: string;
   PROJECTS_NAME_SECTION: string;
   ABOUT_NAME_SECTION: string;
   EXPERIENCE_NAME_SECTION: string;
@@ -39,7 +40,12 @@ const { currentLocale } = Astro;
 const i18n: I18nData = getI18N({ currentLocale });
 ---
 
-<Layout title={i18n.SEO_TITLE} description={i18n.SEO_DESCRIPTION}>
+<Layout
+  title={i18n.SEO_TITLE}
+  description={i18n.SEO_DESCRIPTION}
+  thumbnail={i18n.SEO_THUMBNAIL}
+  currentLocale={currentLocale}
+  >
   <main class="px-4">
     <SectionContainer class="py-16 md:py-36">
       <Hero />

@@ -8,21 +8,32 @@ import { ViewTransitions } from "astro:transitions";
 interface Props {
   title: string;
   description: string;
+  thumbnail: string;
+  currentLocale?: string;
 }
 
-const { description, title } = Astro.props;
+const { description, title, thumbnail, currentLocale } = Astro.props;
 ---
 
 <!doctype html>
-<html lang="es">
+<html lang={currentLocale}>
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content={description} />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
-    <title>{title}</title>
-    <ViewTransitions />
+    <!-- Og meta tags -->
+    <meta property="og:image" content={thumbnail} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <!-- Twitter Card meta tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title.substring(0, 70)} />
+    <meta name="twitter:description" content={description.substring(0, 200)} />
+    <meta name="twitter:image" content={thumbnail} />
+    <!-- <ViewTransitions /> -->
   </head>
 
   <body class="relative text-black dark:text-white">
