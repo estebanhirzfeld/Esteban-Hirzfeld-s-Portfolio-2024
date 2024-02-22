@@ -5,8 +5,9 @@
     "image": "/me.jpg",
     "email": "estebanhirzfeld@gmail.com",
     "phone": "+54 1139137415",
-    "url": "https://example.com",
+    "url": "https://estebanhirzfeld-portfolio.netlify.app/en",
     "summary": "Full-Stack Developer with solid experience in Python and JavaScript, specialized in production environments. Known for my pragmatic approach in creating robust and adaptable software with creative solutions.",
+    "cv": "/cv-en.pdf",
     "location": {
       "address": "",
       "postalCode": "1838",
@@ -35,9 +36,7 @@
       "startDate": "2021-01-01",
       "endDate": null,
       "summary": "Tutor for various courses, including:\n- React.\n- JavaScript.\n- Web development (HTML + CSS, Bootstrap SASS).\n- Python (Django).\n- NextJs.\n\nApproximately 45 students per class, of which I have to:\n\n- Answer questions during classes (approximately 200 students).\n- Answer questions outside of class.\n- Correction of challenges and pre-delivery of projects.\n- Conducting complementary classes to delve into topics or reinforce knowledge.",
-      "highlights": [
-        "4.9 - 5.0 out of 5 average performance rating"
-      ]
+      "highlights": ["4.9 - 5.0 out of 5 average performance rating"]
     },
     {
       "name": "Freelancer",
@@ -46,9 +45,7 @@
       "startDate": "2021-09-01",
       "endDate": null,
       "summary": "Development of Landing Pages for private clients, along with a UX UI Design team.",
-      "highlights": [
-        "Ability to find solutions in adversity"
-      ]
+      "highlights": ["Ability to find solutions in adversity"]
     },
     {
       "name": "Youtube",
@@ -56,9 +53,7 @@
       "startDate": "2020-05-01",
       "endDate": "2021-06-01",
       "summary": "Responsible for Marketing Strategies Competitor Analysis Copywriting Content Optimization (SEO) Creation and editing of audiovisual content.",
-      "highlights": [
-        "Started the company"
-      ]
+      "highlights": ["Started the company"]
     }
   ],
   "volunteer": [
@@ -69,9 +64,7 @@
       "startDate": "2012-01-01",
       "endDate": "2013-01-01",
       "summary": "Description…",
-      "highlights": [
-        "Awarded 'Volunteer of the Month'"
-      ]
+      "highlights": ["Awarded 'Volunteer of the Month'"]
     }
   ],
   "education": [
@@ -168,29 +161,17 @@
     {
       "name": "HTML",
       "level": "Master",
-      "keywords": [
-        "Web Development",
-        "Frontend"
-      ]
+      "keywords": ["Web Development", "Frontend"]
     },
     {
       "name": "CSS",
       "level": "Master",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Responsive Design"
-      ]
+      "keywords": ["Web Development", "Frontend", "Responsive Design"]
     },
     {
       "name": "Astro Build",
       "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Backend",
-        "Fullstack"
-      ]
+      "keywords": ["Web Development", "Frontend", "Backend", "Fullstack"]
     },
     {
       "name": "PostgreSQL",
@@ -205,28 +186,17 @@
     {
       "name": "Selenium",
       "level": "Master",
-      "keywords": [
-        "Testing",
-        "Web Scraping",
-        "Automation"
-      ]
+      "keywords": ["Testing", "Web Scraping", "Automation"]
     },
     {
       "name": "JavaScript",
       "level": "Master",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Backend",
-        "Fullstack"
-      ]
+      "keywords": ["Web Development", "Frontend", "Backend", "Fullstack"]
     },
     {
       "name": "Unity 3D C#",
       "level": "Intermediate",
-      "keywords": [
-        "Video Game Development"
-      ]
+      "keywords": ["Video Game Development"]
     },
     {
       "name": "Docker",
@@ -241,20 +211,12 @@
     {
       "name": "Python",
       "level": "Master",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "Fullstack"
-      ]
+      "keywords": ["Web Development", "Backend", "Fullstack"]
     },
     {
       "name": "Django",
       "level": "Advanced",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "Fullstack"
-      ]
+      "keywords": ["Web Development", "Backend", "Fullstack"]
     },
     {
       "name": "Tailwind",
@@ -279,41 +241,22 @@
     {
       "name": "Node",
       "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "JavaScript",
-        "Server"
-      ]
+      "keywords": ["Web Development", "Backend", "JavaScript", "Server"]
     },
     {
       "name": "MySQL",
       "level": "Intermediate",
-      "keywords": [
-        "Databases",
-        "SQL",
-        "Data Storage",
-        "Backend"
-      ]
+      "keywords": ["Databases", "SQL", "Data Storage", "Backend"]
     },
     {
       "name": "Git",
       "level": "Advanced",
-      "keywords": [
-        "Version Control",
-        "Collaboration",
-        "Source Code"
-      ]
+      "keywords": ["Version Control", "Collaboration", "Source Code"]
     },
     {
       "name": "GitHub",
       "level": "Advanced",
-      "keywords": [
-        "Version Control",
-        "Collaboration",
-        "Source Code",
-        "Git"
-      ]
+      "keywords": ["Version Control", "Collaboration", "Source Code", "Git"]
     },
     {
       "name": "Next.js",
@@ -329,12 +272,7 @@
     {
       "name": "React",
       "level": "Advanced",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "JavaScript Library",
-        "UI"
-      ]
+      "keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"]
     }
   ],
   "languages": [
@@ -350,10 +288,7 @@
   "interests": [
     {
       "name": "Piano",
-      "keywords": [
-        "Composition",
-        "Music"
-      ]
+      "keywords": ["Composition", "Music"]
     }
   ],
   "references": null,
@@ -398,11 +333,7 @@
       "name": "WhatsApp - Clone",
       "isActive": true,
       "description": "Developed using Vanilla JavaScript and WebSockets for real-time communication. Responsive design using Bootstrap, full support for images, links, embedded YouTube videos, GIFs, and emojis.",
-      "highlights": [
-        "WebSockets",
-        "UX UI",
-        "Javascript"
-      ],
+      "highlights": ["WebSockets", "UX UI", "Javascript"],
       "url": "https://leeward-moored-aristosuchus.glitch.me",
       "github": "https://github.com/estebanhirzfeld/WhatsApp-Clone",
       "images": [
