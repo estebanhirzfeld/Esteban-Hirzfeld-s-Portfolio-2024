@@ -3,6 +3,9 @@
     "HEADER_ABOUT_TITLE" : "Sobre mí",
     "HEADER_EXPERIENCE_TITLE" : "Experiencia",
     "HEADER_CONTACT_TITLE" : "Contacto",
+    
+    "DOWNLOAD_FILE_BUTTON" : "Descargar CV",
+    "DOWNLOAD_FILE_NAME" : "Esteban Hirzfeld CV Desarrollador Full Stack React Javascript Python Django 2024 Español.pdf",
 
     "SEO_TITLE": "Portfolio de Esteban Hirzfeld - Desarrollador y Programador Web Django NextJS",
     "SEO_DESCRIPTION": "Contrata a estebanhirzfeld para crear tu aplicación web o móvil. Desarrollador Web. Especializado en crear aplicaciones únicas.",
