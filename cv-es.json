@@ -313,7 +313,7 @@
         "Selenium",
         "React & Redux"
       ],
-      "url": null,
+      "github": "https://github.com/estebanhirzfeld/eCommerce-React-Django-Web-Scraping",
       "images": [
         "/projects/django-react/django-react-ecommerce.png",
         "/projects/django-react/django-react-ecommerce-2.png",
