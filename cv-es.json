@@ -304,6 +304,26 @@
   "references": null,
   "projects": [
     {
+      "name": "Boom Recorder",
+      "isActive": true,
+      "description": "Boom Recorder es una plataforma de captura y compartición de videos con grabación integrada y capacidad de carga automática. Graba, carga y comparte videos fácilmente con compañeros de equipo, amigos o el público.",
+      "highlights": [
+        "Built-in Recorder",
+        "Automatic Video Upload",
+        "Feed Display",
+        "Sharing Capabilities",
+        "Astro Build",
+        "SSR"
+      ],
+      "github": "https://boom-recorder.netlify.app",
+      "url": "https://boom-recorder.vercel.app",
+      "images": [
+        "/projects/boom-recorder/boom-recorder-1.png",
+        "/projects/boom-recorder/boom-recorder-2.png",
+        "/projects/boom-recorder/boom-recorder-3.png"
+      ]
+    },
+    {
       "name": "eCommerce React + Django + Web Scraping",
       "isActive": false,
       "description": "eCommerce hecho con React en el Front-End y Django en el Back-End, geolocalización con Leaflet, Admin Panel, Mercadopago Payment, Web Scraping de 13 sitios diferentes, Reviews, Ratings, y más.",
