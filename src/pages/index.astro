@@ -1,8 +1,10 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 
+import WebPage from "@/components/icons/WebPage.astro";
 import AboutMe from "@/components/AboutMe.astro";
 import Briefcase from "@/components/icons/Briefcase.astro";
+import OtherProjects from "@/components/OtherProjects.astro";
 import CodeIcon from "@/components/icons/Code.astro";
 import Experience from "@/components/Experience.astro";
 import ProfileCheck from "@/components/icons/ProfileCheck.astro";
@@ -19,6 +21,7 @@ interface I18nData {
   SEO_DESCRIPTION: string;
   SEO_THUMBNAIL: string;
   PROJECTS_NAME_SECTION: string;
+  OTHER_PROJECTS_NAME_SECTION: string;
   ABOUT_NAME_SECTION: string;
   EXPERIENCE_NAME_SECTION: string;
   HERO_BADGE: string;
@@ -61,6 +64,17 @@ const i18n: I18nData = getI18N({ currentLocale });
         </h2>
         <Projects />
       </SectionContainer>
+
+      <SectionContainer id="other-projects">
+        <h2
+          class="flex items-center mb-6 text-3xl font-semibold gap-x-8 text-black/80 dark:text-white"
+        >
+          <WebPage class="size-9" />
+          {i18n.OTHER_PROJECTS_NAME_SECTION}
+        </h2>
+        <OtherProjects/>
+      </SectionContainer>
+
       <SectionContainer id="sobre-mi">
         <h2
           class="flex items-center mb-6 text-3xl font-semibold gap-x-8 text-black/80 dark:text-white"

@@ -410,5 +410,37 @@
         "/projects/django-boilerplate/django-boilerplate-3.png"
       ]
     }
+  ],
+  "otherProjects": [
+    {
+      "name": "BlackJack Java",
+      "url": "https://github.com/estebanhirzfeld/Java-BlackJack-with-UI",
+      "image": "/projects/other-projects/blackjack-java.png"
+    },
+    {
+      "name": "Sony Store",
+      "url": "https://estebanhirzfeld.github.io/Sony-Store/",
+      "image": "/projects/other-projects/sony-store.png"
+    },
+    {
+      "name": "Jupiter Web",
+      "url": "https://estebanhirzfeld.github.io/Jupiter-Web/",
+      "image": "/projects/other-projects/jupiter-web.png"
+    },
+    {
+      "name": "Explore The World",
+      "url": "https://estebanhirzfeld.github.io/Explore-The-World/",
+      "image": "/projects/other-projects/explore-the-world.png"
+    },
+    {
+      "name": "Local PP",
+      "url": "https://estebanhirzfeld.github.io/Local-PP/",
+      "image": "/projects/other-projects/local-pp.png"
+    },
+    {
+      "name": "Pablo Giordana",
+      "url": "https://estebanhirzfeld.github.io/Pablo-Giordana-Web/",
+      "image": "/projects/other-projects/pablo-giordana.png"
+    }
   ]
 }
