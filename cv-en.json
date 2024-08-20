@@ -418,11 +418,6 @@
       "image": "/projects/other-projects/sony-store.png"
     },
     {
-      "name": "Jupiter Web",
-      "url": "https://estebanhirzfeld.github.io/Jupiter-Web/",
-      "image": "/projects/other-projects/jupiter-web.png"
-    },
-    {
       "name": "Explore The World",
       "url": "https://estebanhirzfeld.github.io/Explore-The-World/",
       "image": "/projects/other-projects/explore-the-world.png"
@@ -436,6 +431,11 @@
       "name": "Pablo Giordana",
       "url": "https://estebanhirzfeld.github.io/Pablo-Giordana-Web/",
       "image": "/projects/other-projects/pablo-giordana.png"
+    },
+    {
+      "name": "Jupiter Web",
+      "url": "https://estebanhirzfeld.github.io/Jupiter-Web/",
+      "image": "/projects/other-projects/jupiter-web.png"
     }
   ]
 }
