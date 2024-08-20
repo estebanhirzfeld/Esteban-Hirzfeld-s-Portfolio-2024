@@ -408,6 +408,11 @@
       "image": "/projects/other-projects/blackjack-java.png"
     },
     {
+      "name": "MyContent Agency",
+      "url": "https://github.com/estebanhirzfeld/MyContent-frontend",
+      "image": "/projects/other-projects/my-content.png"
+    },
+    {
       "name": "Sony Store",
       "url": "https://estebanhirzfeld.github.io/Sony-Store/",
       "image": "/projects/other-projects/sony-store.png"
