@@ -360,6 +360,21 @@
       ]
     },
     {
+      "name": "Youtube Ad Blocker Extension",
+      "isActive": true,
+      "description": "Una extensión de Chrome que bloquea anuncios en YouTube, interactuando automáticamente con los elementos de la interfaz de YouTube para saltar o bloquear los anuncios.",
+      "highlights": [
+        "Bloqueo automático de anuncios",
+        "Interacción con la interfaz de YouTube",
+        "Uso de XPath y selectores"
+      ],
+      "github": "https://github.com/estebanhirzfeld/youtube-ad-blocker",
+      "images": [
+        "/projects/other-projects/yt-ad-blocker.png",
+        "/projects/other-projects/yt-ad-blocker-2.png"
+      ]
+    },
+    {
       "name": "WhatsApp - Clone",
       "isActive": true,
       "description": "Desarrollado utilizando JavaScript Vanilla y WebSockets para la comunicación en tiempo real. Diseño responsive utilizando Bootstrap, soporte completo para imágenes, enlaces, vídeos de YouTube embebidos, GIFs y emojis.",
